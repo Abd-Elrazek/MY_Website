@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar header*/
+
+@media (max-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+    .navbar-nav li {
+        margin-bottom: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+
+.navbar-nav li a:hover {
+    cursor: pointer;
+    border-bottom: solid 2px #1976D2;
+    color: #424242;
+    text-decoration: none;
+}
+
+.navbar-nav li a {
+    padding-bottom: 0px;
+}
