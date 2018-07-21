@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(222, 222, 221) !important;
 }
 
 /* Navbar header*/
@@ -21,7 +22,9 @@ body {
     }
 }
 
-
+.navbar {
+    margin-bottom: 0;
+}
 
 .navbar-default .navbar-nav li a:hover {
     cursor: pointer;
@@ -33,4 +36,16 @@ body {
     padding-bottom: 0px;
     font-weight: bold;
     font-family: serif;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 98%;
+    width: 2600px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 630px;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
 }

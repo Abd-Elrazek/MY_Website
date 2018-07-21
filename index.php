@@ -64,8 +64,24 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <!--  start home page  -->
+    <div class="card">
 
-    <div class="container">
+    </div>
+    <!--  start About me  page  -->
+    <div class="card">
+
+    </div>
+    <!--  start skills  page  -->
+    <div class="card">
+
+    </div>
+    <!--  start Sevices page  -->
+    <div class="card">
+
+    </div>
+    <!--  start Contact page  -->
+    <div class="card">
 
     </div>
 
