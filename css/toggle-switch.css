@@ -11,7 +11,7 @@ label {
     height: 30px;
     background: grey;
     display: block;
-    margin-top: -10px;
+    margin-top: 9px;
     border-radius: 100px;
     position: relative;
 
@@ -42,4 +42,14 @@ input:checked + label:after {
 
 label:active:after {
     width: 130px;
+}
+
+.main_switch {
+    display: -webkit-box;
+}
+
+.sun_icon {
+    margin-left: 20px;
+    margin-right: 31px;
+    margin-top: 9px;
 }

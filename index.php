@@ -51,8 +51,11 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <input type="checkbox" id="switch" />
-                        <label class="T_" for="switch">Switch</label>
+                        <div class="main_switch">
+                            <input type="checkbox" id="switch" />
+                            <label class="T_" for="switch">Switch</label>
+                            <i class="fas sun_icon fa-sun fa-2x"></i>
+                        </div>
                     </li>
                 </ul>
             </div>
