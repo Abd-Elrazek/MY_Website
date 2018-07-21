@@ -53,3 +53,19 @@ body {
 .home {
     margin-top: 10px;
 }
+
+.home_image {
+    margin-top: 100px;
+    border: blue 2px solid;
+}
+
+.home_image img {
+    margin-left: 84px;
+    width: 290px;
+    height: 290px;
+}
+
+.home_info {
+    border: blue 2px solid;
+    margin-top: 195px;
+}

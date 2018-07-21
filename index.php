@@ -66,7 +66,45 @@
     </nav>
     <!--  start home page  -->
     <div class="card home">
+        <div class="inside_card">
+            <div class="row">
+                <h2>Home</h2>
+                <p>An aspiring Software Engineer who is in a journey to become a full-stack developer.</p>
+                <div class="col-sm-6  col-xs-12">
+                    <div class="home_image">
+                        <img class="img-circle" src="images/image.png" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
+                    </div>
+                </div>
 
+                <div class="col-sm-6  col-xs-12">
+                    <div class="home_info">
+                        <ul class="list-unstyled">
+                            <li>
+                                <span> Name</span>
+                                <span>Abdelrazek Nageh</span>
+                            </li>
+                            <li>
+                                <span> Email</span>
+                                <span>Abdelrazek.n3@gmail</span>
+                            </li>
+                            <li>
+                                <span> Phone N</span>
+                                <span>01090802147</span>
+                            </li>
+                            <li>
+                                <span>I'm a freelancer Web Developer </span>
+
+                            </li>
+                            <li>
+                                <span> Name</span>
+                                <span>Abdelrazek Nageh</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!--  start About me  page  -->
     <div class="card">
