@@ -21,18 +21,16 @@ body {
     }
 }
 
-.navbar-default .navbar-nav li a {
-    color: "#ededec";
 
-}
 
-.navbar-nav li a:hover {
+.navbar-default .navbar-nav li a:hover {
     cursor: pointer;
     border-bottom: solid 2px #1976D2;
-    color: #a9c0ef;
     text-decoration: none;
 }
 
 .navbar-nav li a {
     padding-bottom: 0px;
+    font-weight: bold;
+    font-family: serif;
 }

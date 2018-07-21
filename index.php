@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded:400,700">
     <link rel="stylesheet" href="css/main-style.css" />
     <link rel="stylesheet" href="css/toggle-switch.css" />
+    <style type="text/css">
+        a:hover {
+            color: blue important;
+        }
+
+    </style>
 </head>
 
 <body>
