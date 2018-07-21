@@ -17,8 +17,7 @@
     <link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded:400,700">
     <link rel="stylesheet" href="css/main-style.css" />
-
-
+    <link rel="stylesheet" href="css/toggle-switch.css" />
 </head>
 
 <body>
@@ -42,7 +41,13 @@
                     <li><a class="h" href="#">Skills</a></li>
                     <li><a class="h" href="#">Services</a></li>
                     <li><a class="h" href="#">Contact</a></li>
+                </ul>
 
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <input type="checkbox" id="switch" />
+                        <label for="switch">Switch</label>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -59,6 +64,7 @@
     <!-- basic js load..... -->
     <script src=" js/jquery-3.2.1.min.js "></script>
     <script src="js/bootstrap.min.js "></script>
+    <script src="js/toggle-switch.js"></script>
 
 
 </body>
