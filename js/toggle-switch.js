@@ -13,6 +13,9 @@ var checked = function () {
     });
     $('head').append('<style class ="toggle" type="text/css"> label:after{background:#ededec}; </style>');
     $(".toggle_s").remove();
+    $(".sun_icon").css("color", "#222");
+    $(".fa-moon").css("color", "rgb(148, 148, 147)");
+    $(".navbar-default").css("border-color", "#222");
     if (!n) {
         document.body.style.background = "#222";
         $('.navbar-default .navbar-nav li a').css("color", "#ededec");
@@ -24,6 +27,9 @@ var checked = function () {
         });
         $('head').append('<style class ="toggle_s" type="text/css"> label:after{background:#222}; </style>');
         $(".toggle").remove();
+        $(".sun_icon").css("color", "rgb(84, 88, 77)")
+        $(".fa-moon").css("color", "rgb(247, 247, 243)");
+        $(".navbar-default").css("border-color", "#ededec");
     }
 
 };

@@ -46,10 +46,18 @@ label:active:after {
 
 .main_switch {
     display: -webkit-box;
+    overflow: hidden;
 }
 
 .sun_icon {
     margin-left: 20px;
     margin-right: 31px;
+    margin-top: 9px;
+}
+
+
+.fa-moon {
+    margin-left: 12px;
+    margin-right: 16px;
     margin-top: 9px;
 }
