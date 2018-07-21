@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,7 +46,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <input type="checkbox" id="switch" />
-                        <label for="switch">Switch</label>
+                        <label class="T_" for="switch">Switch</label>
                     </li>
                 </ul>
             </div>

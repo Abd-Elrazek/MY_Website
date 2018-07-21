@@ -21,11 +21,15 @@ body {
     }
 }
 
+.navbar-default .navbar-nav li a {
+    color: "#ededec";
+
+}
 
 .navbar-nav li a:hover {
     cursor: pointer;
     border-bottom: solid 2px #1976D2;
-    color: #424242;
+    color: #a9c0ef;
     text-decoration: none;
 }
 
