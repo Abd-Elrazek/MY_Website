@@ -65,7 +65,7 @@
         <!-- /.container-fluid -->
     </nav>
     <!--  start home page  -->
-    <div class="card">
+    <div class="card home">
 
     </div>
     <!--  start About me  page  -->
