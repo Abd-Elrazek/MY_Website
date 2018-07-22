@@ -1,101 +1,131 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(222, 222, 221);
+	margin: 0;
+	padding: 0;
+	background-color: rgb(222, 222, 221);
 }
 
 /* Navbar header*/
 
 @media (max-width: 768px) {
-    .navbar {
-        border-radius: 0;
-    }
-    .navbar-nav li {
-        margin-bottom: 11px;
-    }
+	.navbar {
+		border-radius: 0;
+	}
+	.navbar-nav li {
+		margin-bottom: 11px;
+	}
 }
 
 @media (min-width: 768px) {
-    .navbar {
-        border-radius: 0;
-    }
+	.navbar {
+		border-radius: 0;
+	}
 }
 
 .navbar {
-    margin-bottom: 0;
-    min-height: 46px;
+	margin-bottom: 0;
+	min-height: 46px;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    cursor: pointer;
-    border-bottom: solid 2px #1976D2;
-    text-decoration: none;
+	cursor: pointer;
+	border-bottom: solid 2px #1976D2;
+	text-decoration: none;
 }
 
 .list_right li {
-    border-right: 1px solid #111;
+	border-right: 3px solid #111
 }
 
 .navbar-nav li a {
-    padding-bottom: 0px;
-    font-weight: bold;
-    font-family: serif;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-family: serif;
 }
 
 .card {
-    background-color: rgb(255, 255, 255);
-    max-width: 98%;
-    width: 2600px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-right: auto;
-    margin-left: auto;
-    height: auto;
-    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+	background-color: rgb(255, 255, 255);
+	max-width: 98%;
+	width: 2600px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
 }
 
 .home {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .home_image {
-    margin-top: 100px;
-    border: blue 2px solid;
+	margin-top: 100px;
+	border: blue 2px solid;
 }
 
 .home_image img {
-    float: right;
-    margin-right: 9px;
-    width: 290px;
-    height: 290px;
+	float: right;
+	margin-right: 9px;
+	width: 290px;
+	height: 290px;
 }
 
 .home_info {
-    border: blue 2px solid;
-    margin-top: 100px;
-    font-family: HomemadeApple-Regular;
-    color: turquoise;
+	border: blue 2px solid;
+	margin-top: 100px;
+	font-family: HomemadeApple-Regular;
+	color: turquoise;
 }
 
 .home_info .list_info {
-    margin: 25px;
+	margin: 25px;
 }
 
 .home_info .list_info .el_info_right {
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
 }
 
 span.el_info {
-    margin-left: 47px;
-    font-family: 'Indie Flower', cursive;
+	margin-left: 47px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
 }
 
 span.el_info_f {
-    font-family: 'Nixie One', cursive;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
 }
 
 .fa-square {
-    padding-right: 12px;
+	padding-right: 12px;
+}
+
+.i_am {
+	color: black;
+	font-size: 22px;
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+}
+
+/* this style for word "Stack developer */
+
+.fsd {
+	background-color: #e8e8f5;
+	color: #23b198;
+	font-family: 'Nosifer', cursive;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 21% 27% 32% 20%;
+	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px
+}
+
+.seng {}
+
+/* Fo header h2, h3 ,h4*/
+
+h2 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
 }

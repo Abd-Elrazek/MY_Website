@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-google.css" />
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
 	<link rel="stylesheet" href="css/main-style.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
 	<style type="text/css">
@@ -45,10 +45,10 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav list_right">
 					<li class="active"><a class="h" href="#">Home <span class="sr-only">(current)</span></a></li>
-					<li><a class="h text-center" href="#">About Me</a></li>
-					<li><a class="h text-center" href="#">Skills</a></li>
-					<li><a class="h text-center" href="#">Services</a></li>
-					<li><a class="h text-center" href="#">Contact</a></li>
+					<li><a class="h" href="#">About Me</a></li>
+					<li><a class="h" href="#">Skills</a></li>
+					<li><a class="h" href="#">Services</a></li>
+					<li><a class="h" href="#">Contact</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -70,8 +70,8 @@
 	<div class="card home">
 		<div class="inside_card">
 			<div class="row">
-				<h2 class="text-center">Home</h2>
-				<p class="text-center lead">An aspiring Software Engineer who is in a journey to become a full-stack developer.</p>
+				<h2 class="text-center">Who I am ? </h2>
+				<p class="text-center i_am"> I am <span class = "seng"> Software Engineer </span> who is in a journey to become <span class="fsd">a full-stack developer.</span></p>
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_image">
 						<img class="img-circle" src="images/image.png" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
@@ -103,7 +103,7 @@
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="lead el_info_f">I'm a freelancer Web &emsp; <i  class="fas fa-smile-beam"></i> &ensp;. </span>
+								<span class="lead el_info_f">I'm a freelancer Web <span style = "color:red"> &hearts;</span> </span>
 
 							</li>
 
