@@ -83,23 +83,23 @@
 						<ul class="list-unstyled">
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="lead el_info_right"> Name  </span>
-								<span class="lead el_info">Abdelrazek Nageh</span>
+								<span class="el_info_right"> Name  </span>
+								<span class="el_info">Abdelrazek Nageh</span>
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="lead el_info_right"> Email </span>
-								<span class="lead el_info">Abdelrazek.n3@gmail.com</span>
+								<span class="el_info_right"> Email </span>
+								<span class="el_info">Abdelrazek.n3@gmail.com</span>
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="lead el_info_right"> Phone </span>
-								<span class="lead el_info">01090802147</span>
+								<span class="el_info_right"> Phone </span>
+								<span class="el_info">01090802147</span>
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="lead el_info_right"> Name  </span>
-								<span class="lead el_info">Abdelrazek Nageh</span>
+								<span class="el_info_right"> Name  </span>
+								<span class="el_info">Abdelrazek Nageh</span>
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
