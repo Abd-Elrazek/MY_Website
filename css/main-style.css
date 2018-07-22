@@ -290,9 +290,12 @@ span.el_info_f {
 		width: 238px;
 	}
 
+}
+
+@media (max-width:395px) {
 	.home_info {
-		font-size: 13px;
-		margin-left: 1px;
+		font-size: 17px;
+		margin-left: 5px;
 	}
 	.fa-square {
 		padding-right: 2px;
@@ -300,6 +303,13 @@ span.el_info_f {
 	}
 	span.el_info {
 		margin-left: 5px;
+	}
+}
+
+@media (max-width:332px) {
+	.home_info {
+		font-size: 14px;
+		margin-left: 0px;
 	}
 }
 
