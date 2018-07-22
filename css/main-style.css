@@ -89,8 +89,9 @@ span.el_info_f {
 }
 
 .fa-square {
-	padding-right: 12px;
-	color: #84848e;
+	padding-right: 1px;
+	color: #e8e8f5;
+	box-shadow: rgba(79, 97, 97, 0.08) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgba(0, 0, 0, 0.39) -3px 1px 0px 0px;
 }
 
 .i_am {
@@ -202,12 +203,19 @@ span.el_info_f {
 	}
 	.home_info {
 		font-size: 23px;
+		border-left: #23b198 1px solid;
 	}
+
+	.fa-square {
+		margin-left: 12px;
+	}
+
 }
 
 @media (max-width:1000px) {
 	.home_info {
 		font-size: 22px;
+		border-left: #23b198 1px solid;
 	}
 	.fsd,
 	.wiiajtb,
@@ -216,11 +224,16 @@ span.el_info_f {
 		font-size: 36px;
 	}
 
+	.fa-square {
+		margin-left: 12px;
+	}
+
 }
 
 @media (max-width:875px) {
 	.home_info {
 		font-size: 18px;
+		border-left: #23b198 1px solid;
 	}
 	.fsd,
 	.wiiajtb,
@@ -295,15 +308,16 @@ span.el_info_f {
 @media (max-width:395px) {
 	.home_info {
 		font-size: 17px;
-		margin-left: 5px;
+		margin-left: unset;
 	}
 	.fa-square {
-		padding-right: 2px;
-		padding-left: 0px;
+		margin-left: 0px;
 	}
 	span.el_info {
 		margin-left: 5px;
 	}
+
+
 }
 
 @media (max-width:332px) {
