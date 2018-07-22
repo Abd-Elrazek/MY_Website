@@ -15,7 +15,9 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded:400,700">
+    <link rel="stylesheet" href="css/font-google.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
     <link rel="stylesheet" href="css/main-style.css" />
     <link rel="stylesheet" href="css/toggle-switch.css" />
     <style type="text/css">
@@ -68,8 +70,8 @@
     <div class="card home">
         <div class="inside_card">
             <div class="row">
-                <h2>Home</h2>
-                <p>An aspiring Software Engineer who is in a journey to become a full-stack developer.</p>
+                <h2 class="text-center">Home</h2>
+                <p class="text-center lead">An aspiring Software Engineer who is in a journey to become a full-stack developer.</p>
                 <div class="col-sm-6  col-xs-12">
                     <div class="home_image">
                         <img class="img-circle" src="images/image.png" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
@@ -79,26 +81,27 @@
                 <div class="col-sm-6  col-xs-12">
                     <div class="home_info">
                         <ul class="list-unstyled">
-                            <li>
-                                <span> Name</span>
-                                <span>Abdelrazek Nageh</span>
+                            <li class="list_info">
+                                <span class="lead el_info_right"> Name : </span>
+                                <span class="lead el_info">Abdelrazek Nageh</span>
                             </li>
-                            <li>
-                                <span> Email</span>
-                                <span>Abdelrazek.n3@gmail</span>
+                            <li class="list_info">
+                                <span class="lead el_info_right"> Email :</span>
+                                <span class="lead el_info">Abdelrazek.n3@gmail</span>
                             </li>
-                            <li>
-                                <span> Phone N</span>
-                                <span>01090802147</span>
+                            <li class="list_info">
+                                <span class="lead el_info_right"> Phone :</span>
+                                <span class="lead el_info">01090802147</span>
                             </li>
-                            <li>
-                                <span>I'm a freelancer Web Developer </span>
+                            <li class="list_info">
+                                <span class="lead el_info_right"> Name  :</span>
+                                <span class="lead el_info">Abdelrazek Nageh</span>
+                            </li>
+                            <li class="list_info">
+                                <span class="lead el_info_f">I'm a freelancer Web . </span>
 
                             </li>
-                            <li>
-                                <span> Name</span>
-                                <span>Abdelrazek Nageh</span>
-                            </li>
+
 
                         </ul>
                     </div>
@@ -108,19 +111,19 @@
     </div>
     <!--  start About me  page  -->
     <div class="card">
-
+        dsfdsdsfdsf
     </div>
     <!--  start skills  page  -->
     <div class="card">
-
+        dsfdsfsdfdsff
     </div>
     <!--  start Sevices page  -->
     <div class="card">
-
+        fdsfdsfdsf
     </div>
     <!--  start Contact page  -->
     <div class="card">
-
+        fdsfsdf
     </div>
 
 

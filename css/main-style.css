@@ -46,7 +46,7 @@ body {
     margin-bottom: 6px;
     margin-right: auto;
     margin-left: auto;
-    height: 630px;
+    height: auto;
     box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
 }
 
@@ -60,12 +60,32 @@ body {
 }
 
 .home_image img {
-    margin-left: 84px;
+    float: right;
+    margin-right: 9px;
     width: 290px;
     height: 290px;
 }
 
 .home_info {
     border: blue 2px solid;
-    margin-top: 195px;
+    margin-top: 100px;
+    font-family: HomemadeApple-Regular;
+    color: turquoise;
 }
+
+.home_info .list_info {
+    margin: 25px;
+}
+
+.home_info .list_info .el_info_right {
+    font-weight: bold;
+    margin-right: 1px;
+}
+
+span.el_info {
+    margin-left: 47px;
+    font-family: 'Indie Flower', cursive;
+}
+
+span.el_info_f {
+    font-family: 'Nixie One', cursive;
