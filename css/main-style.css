@@ -111,7 +111,10 @@ span.el_info_f {
 
 /* this style for word "Stack developer */
 
-.fsd {
+.fsd,
+.wiiajtb,
+.iase {
+	display: block;
 	background-color: #e8e8f5;
 	color: #23b198;
 	font-family: 'Nosifer', cursive;
@@ -121,11 +124,48 @@ span.el_info_f {
 	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px
 }
 
-.seng {}
+/*this for section of "I am Softwere Engineering*/
+
+/*.iase {*/
+
+/*this for section of "who is in journet to become*/
+
+/*.wiiajtb {}*/
 
 /* Fo header h2, h3 ,h4*/
 
-h2 {
+.who_I {
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
+	color: #38bdb8;
+	margin-left: 70px;
+	margin-right: auto;
+	margin-bottom: 32px;
+	margin-top: 23px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	position: relative;
+}
+
+.who_I::before {
+	content: "";
+	top: 110%;
+	left: 10px;
+	background-color: #c2c7c1;
+	position: absolute;
+	width: 119px;
+	height: 3px;
+	animation-delay: 0.2s;
+}
+
+.who_I::after {
+	content: "";
+	top: 132%;
+	left: 29px;
+	width: 115px;
+	height: 3px;
+	position: absolute;
+	background-color: #f2dede;
+	animation: move-line 0.4s ease-out forwards;
+	animation-delay: 0.1s;
 }

@@ -55,7 +55,7 @@
 					<li>
 						<div class="main_switch">
 							<i class="fas fa-moon fa-2x"></i>
-							<input type="checkbox" id="switch" />
+							<input type="checkbox" checked id="switch" />
 							<label class="T_" for="switch">Switch</label>
 							<i class="fas sun_icon fa-sun fa-2x"></i>
 						</div>
@@ -70,8 +70,8 @@
 	<div class="card home">
 		<div class="inside_card">
 			<div class="row">
-				<h2 class="text-center">Who I am ? </h2>
-				<p class="text-center i_am"> I am <span class = "seng"> Software Engineer </span> who is in a journey to become <span class="fsd">a full-stack developer.</span></p>
+				<h2 class="who_I">Who I am ? </h2>
+				<p class="text-center i_am"> <span class="iase">I am  Software Engineer </span> <span class="wiiajtb">who is in a journey to become</span> <span class="fsd">a full-stack developer.</span></p>
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_image">
 						<img class="img-circle" src="images/image.png" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
