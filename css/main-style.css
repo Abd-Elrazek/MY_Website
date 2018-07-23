@@ -137,7 +137,7 @@ span.el_info_f {
 
 /* Fo header h2, h3 ,h4*/
 
-.who_I {
+.h_page {
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	color: #38bdb8;
@@ -150,7 +150,7 @@ span.el_info_f {
 	position: relative;
 }
 
-.who_I::before {
+.h_page::before {
 	content: "";
 	top: 110%;
 	left: 10px;
@@ -161,7 +161,7 @@ span.el_info_f {
 	animation-delay: 0.2s;
 }
 
-.who_I::after {
+.h_page::after {
 	content: "";
 	top: 132%;
 	left: 29px;
@@ -221,7 +221,33 @@ span.el_info_f {
 
 }
 
+/*Start style of page skills*/
 
+.h_skills {
+	padding-top: 17px;
+	padding-bottom: 31px;
+	margin-left: 47px;
+}
+
+.h_skills::after {
+	top: 57px;
+}
+
+.h_skills::before {
+	top: 51px;
+}
+
+.Experienced,
+.Strong,
+.Familliar {
+	border: red 2px solid;
+}
+
+.font_h_skills {
+	font-family: 'Indie Flower', cursive;
+}
+
+/*End style of page skills*/
 
 @media (max-width:1000px) {
 	.home_info {

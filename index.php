@@ -12,8 +12,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<!-- for Device mobile -->
 	<meta name="Content" content="width=device-width,initial-scale=1">
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-google.css" />
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
@@ -70,7 +70,7 @@
 	<div class="card home">
 		<div class="inside_card">
 			<div class="row">
-				<h2 class="who_I">Who I am ? </h2>
+				<h2 class="h_page">Who I am ? </h2>
 				<p class="text-center i_am"> <span class="iase">I am  Software Engineer </span> <span class="wiiajtb">who is in a journey to become</span> <span class="fsd">a full-stack developer.</span></p>
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_image">
@@ -106,19 +106,42 @@
 								<span class="lead el_info_f">I'm a freelancer Web <span style = "color:red"> &hearts;</span> </span>
 
 							</li>
-
-
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!--  start About me  page  -->
-	<div class="card">
-		dsfdsdsfdsf
-	</div>
 	<!--  start skills  page  -->
+	<div class="card">
+		<div class="inside_card">
+			<h2 class="h_page h_skills"> My Skills</h2>
+			<div class="row">
+				<!-- Experienced-->
+				<div class="col-md-4 col-xs-12">
+					<div class="Experienced">
+						<h2 class="text-center font_h_skills"> Experienced</h2>
+					</div>
+				</div>
+				<!--Strong-->
+				<div class="col-md-4 col-xs-12">
+					<div class="Strong">
+						<h2 class="text-center font_h_skills"> Strong</h2>
+						fdsfdsfdsfsdfds
+					</div>
+				</div>
+				<!--Familliar-->
+				<div class="col-md-4 col-xs-12">
+					<div class="Familliar">
+						<h2 class="text-center font_h_skills"> Familliar</h2>
+						dsfdsfsf
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--  start About me  page  -->
 	<div class="card">
 		dsfdsfsdfdsff
 	</div>
