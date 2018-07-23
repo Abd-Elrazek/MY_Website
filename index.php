@@ -98,8 +98,8 @@
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
-								<span class="el_info_right"> Name  </span>
-								<span class="el_info">Abdelrazek Nageh</span>
+								<span class="el_info_right"> Address</span>
+								<span class="el_info">Egypt, Souhag</span>
 							</li>
 							<li class="list_info">
 								<i class="fas fa-square fa-1x"></i>
