@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-	<title> Abdelrazek </title>
+	<title> &hearts; A B D E l R A Z E K &hearts;</title>
 	<meta charset="UTF-8" />
 	<meta content="Contact Us" name="description" />
 	<meta content="Contact Us " name="twitter:description" />
@@ -81,27 +81,27 @@
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_info">
 						<ul class="list-unstyled">
-							<li class="list_info">
+							<li class="list_info" title="Name">
 								<i class="fas fa-square fa-1x"></i>
 								<span class="el_info_right"> Name  </span>
 								<span class="el_info">Abdelrazek Nageh</span>
 							</li>
-							<li class="list_info">
+							<li class="list_info" title="Email">
 								<i class="fas fa-square fa-1x"></i>
 								<span class="el_info_right"> Email </span>
 								<span class="el_info">Abdelrazek.n3@gmail.com</span>
 							</li>
-							<li class="list_info">
+							<li class="list_info" title="Phone">
 								<i class="fas fa-square fa-1x"></i>
 								<span class="el_info_right"> Phone </span>
 								<span class="el_info">01090802147</span>
 							</li>
-							<li class="list_info">
+							<li class="list_info" title="Address">
 								<i class="fas fa-square fa-1x"></i>
 								<span class="el_info_right"> Address</span>
 								<span class="el_info">Egypt, Souhag</span>
 							</li>
-							<li class="list_info">
+							<li class="list_info" title="Avalaible : 24H">
 								<i class="fas fa-square fa-1x"></i>
 								<span class="lead el_info_f">I'm a freelancer Web <span style = "color:red"> &hearts;</span> </span>
 
