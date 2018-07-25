@@ -302,6 +302,7 @@ span.el_info_f {
 	position: relative;
 	top: -30px;
 	font-weight: bolder;
+	padding-left: 8px;
 }
 
 .skills ul > li span {
@@ -656,6 +657,10 @@ span.el_info_f {
 			width: 351px;
 			font-size: 24px;
 		}
+		.skills {
+			margin-left: 27px;
+			margin-right: 22px;
+		}
 
 	}
 
@@ -707,19 +712,35 @@ span.el_info_f {
 		.Familliar,
 		.Strong,
 		.Experienced {
-			margin-bottom: 12px;
-		}
 
-		.Experienced {
-			padding-left: 2px;
+			margin-bottom: 5px;
 		}
-		.Familliar {
-			padding-right: 2px;
-		}
+		.skills {
 
-		.skills .last-li {
-			margin-bottom: 32px;
+			margin-left: 88px;
+			margin-right: 88px;
 		}
 	}
-	/*Media query for second page of skills*/
-	/*End media query*/
+	.skills .last-li {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width:585px) {
+	.skills {
+		margin-left: 27px;
+		margin-right: 22px;
+	}
+
+}
+
+@media (max-width:332px) {
+	.skills {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+
+/*Media query for second page of skills*/
+
+/*End media query*/
