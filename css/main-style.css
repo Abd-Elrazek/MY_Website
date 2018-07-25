@@ -313,22 +313,77 @@ span.el_info_f {
 }
 
 .skills .html5 {
-	width: 70%;
+	width: 98%;
 	animation: html5 2s ease-out;
 }
 
 .skills .css3 {
-	width: 90%;
+	width: 97%;
 	animation: css3 2s ease-out;
 }
 
 .skills .jquery {
-	width: 50%;
+	width: 90%;
 	animation: jquery 2s ease-out;
 }
 
-.skills .photoshop {
+.skills .node {
+	width: 65%;
+	animation: node 2s ease-out;
+}
+
+.skills .ajax {
+	width: 98%;
+	animation: ajax 2s ease-out;
+}
+
+.skills .php {
+	width: 70%;
+	animation: php 2s ease-out;
+}
+
+.skills .wordpress {
 	width: 60%;
+	animation: wordpress 2s ease-out;
+}
+
+.skills .java {
+	width: 98%;
+	animation: java 2s ease-out;
+}
+
+.skills .git {
+	width: 85%;
+	animation: git 2s ease-out;
+}
+
+.skills .bootstrap {
+	width: 98%;
+	animation: bootstrap 2s ease-out;
+}
+
+.skills .python {
+	width: 20%;
+	animation: python 2s ease-out;
+}
+
+.skills .sass {
+	width: 40%;
+	animation: sass 2s ease-out;
+}
+
+.skills .responsive {
+	width: 96%;
+	animation: responsive 2s ease-out;
+}
+
+.skills .teamwork {
+	width: 70%;
+	animation: teamwork 2s ease-out;
+}
+
+.skills .photoshop {
+	width: 30%;
 	animation: photoshop 2s ease-out;
 }
 
@@ -337,7 +392,7 @@ span.el_info_f {
 		width: 0px;
 	}
 	100% {
-		width: 70%;
+		width: 98%;
 	}
 }
 
@@ -346,7 +401,7 @@ span.el_info_f {
 		width: 0px;
 	}
 	100% {
-		width: 90%;
+		width: 97%;
 	}
 }
 
@@ -355,7 +410,106 @@ span.el_info_f {
 		width: 0px;
 	}
 	100% {
-		width: 50%;
+		width: 90%;
+	}
+}
+
+@keyframes node {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 65%;
+	}
+}
+
+@keyframes ajax {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 98%;
+	}
+}
+
+@keyframes php {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes wordpress {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 60%;
+	}
+}
+
+@keyframes java {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 98%;
+	}
+}
+
+@keyframes git {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 85%;
+	}
+}
+
+@keyframes bootstrap {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 98%;
+	}
+}
+
+@keyframes python {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 20%;
+	}
+}
+
+@keyframes sass {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 40%;
+	}
+}
+
+@keyframes responsive {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 96%;
+	}
+}
+
+@keyframes teamwork {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 70%;
 	}
 }
 
@@ -364,9 +518,10 @@ span.el_info_f {
 		width: 0px;
 	}
 	100% {
-		width: 60%;
+		width: 30%;
 	}
 }
+
 
 
 /*End Ul of kills*/
@@ -560,6 +715,10 @@ span.el_info_f {
 		}
 		.Familliar {
 			padding-right: 2px;
+		}
+
+		.skills .last-li {
+			margin-bottom: 32px;
 		}
 	}
 	/*Media query for second page of skills*/
