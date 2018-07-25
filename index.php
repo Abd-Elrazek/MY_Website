@@ -18,14 +18,10 @@
 	<link rel="stylesheet" href="css/font-google.css" />
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 	<link rel="stylesheet" href="css/main-style.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
-	<style type="text/css">
-		a:hover {
-			color: blue important;
-		}
 
-	</style>
 </head>
 
 <body>
@@ -55,7 +51,7 @@
 					<li>
 						<div class="main_switch">
 							<i class="fas fa-moon fa-2x"></i>
-							<input type="checkbox" checked id="switch" />
+							<input type="checkbox" id="switch" />
 							<label class="T_" for="switch">Switch</label>
 							<i class="fas sun_icon fa-sun fa-2x"></i>
 						</div>
@@ -120,25 +116,65 @@
 				<!-- Experienced-->
 				<div class="col-md-4 col-xs-12">
 					<div class="Experienced">
-						<h2 class="text-center font_h_skills"> Experienced</h2>
+						<div class="address">
+							<i class="fas fa-certificate fa-2x icon"></i>
+							<div class="address-header">
+								<h2 class="font_h_skills"> Experienced</h2>
+							</div>
+						</div>
+						<div class="skills">
+							<ul class="list-unstyled">
+								<li><span class="html5"></span><em>HTML 5</em></li>
+								<li><span class="css3"></span><em>CSS 3</em></li>
+								<li><span class="jquery"></span><em>jQuery</em></li>
+								<li><span class="photoshop"></span><em>Photoshop</em></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<!--Strong-->
 				<div class="col-md-4 col-xs-12">
 					<div class="Strong">
-						<h2 class="text-center font_h_skills"> Strong</h2>
-						fdsfdsfdsfsdfds
+						<div class="address">
+							<i class="fas fa-certificate fa-2x icon"></i>
+							<div class="address-header">
+								<h2 class="font_h_skills"> Strong</h2>
+							</div>
+						</div>
+						<div class="skills">
+							<ul class="list-unstyled">
+								<li><span class="html5"></span><em>HTML 5</em></li>
+								<li><span class="css3"></span><em>CSS 3</em></li>
+								<li><span class="jquery"></span><em>jQuery</em></li>
+								<li><span class="photoshop"></span><em>Photoshop</em></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<!--Familliar-->
 				<div class="col-md-4 col-xs-12">
 					<div class="Familliar">
-						<h2 class="text-center font_h_skills"> Familliar</h2>
-						dsfdsfsf
+						<div class="address">
+							<i class="fas fa-certificate fa-2x icon"></i>
+							<div class="address-header">
+								<h2 class="font_h_skills"> Familliar</h2>
+							</div>
+						</div>
+						<div class="skills">
+							<ul class="list-unstyled">
+								<li><span class="html5"></span><em>HTML 5</em></li>
+								<li><span class="css3"></span><em>CSS 3</em></li>
+								<li><span class="jquery"></span><em>jQuery</em></li>
+								<li><span class="photoshop"></span><em>Photoshop</em></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-
+			<div class="y-experienced text-center">
+				<div> One Year Of <span> Experience</span></div>
+				<i class="fas fa-chart-line fa-2x"></i>
+			</div>
 		</div>
 	</div>
 	<!--  start About me  page  -->

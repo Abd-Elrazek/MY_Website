@@ -41,6 +41,11 @@ body {
 	box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
 }
 
+.inside_card {
+	padding-bottom: 13px;
+	cursor: default;
+}
+
 .home {
 	margin-top: 10px;
 }
@@ -240,14 +245,164 @@ span.el_info_f {
 .Experienced,
 .Strong,
 .Familliar {
-	border: red 2px solid;
+	padding-left: 2px;
 }
 
 .font_h_skills {
 	font-family: 'Indie Flower', cursive;
+	color: #23b198;
 }
 
+.address {
+	padding-bottom: 16px;
+}
+
+
+.address .address-header {
+	display: inline-block;
+}
+
+.card .address .icon {
+	padding-right: 10px;
+	padding-left: 1px;
+	color: aqua;
+}
+
+
+/*Start Ul of kills*/
+
+.skills {
+	width: auto;
+	position: relative;
+	padding: 9px 0;
+	font-family: 'Exo', sans-serif;
+	font-size: 12px;
+	color: cyan;
+}
+
+
+.skills ul {
+	padding-top: 12px;
+}
+
+.skills ul > li {
+	margin-bottom: 70px;
+	background: #000;
+	height: 5px;
+	border-radius: 3px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.skills ul > li em {
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	position: relative;
+	top: -30px;
+	font-weight: bolder;
+}
+
+.skills ul > li span {
+	height: 1px;
+	margin: 2px 0;
+	background: #2187e7;
+	position: absolute;
+	box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
+}
+
+.skills .html5 {
+	width: 70%;
+	animation: html5 2s ease-out;
+}
+
+.skills .css3 {
+	width: 90%;
+	animation: css3 2s ease-out;
+}
+
+.skills .jquery {
+	width: 50%;
+	animation: jquery 2s ease-out;
+}
+
+.skills .photoshop {
+	width: 60%;
+	animation: photoshop 2s ease-out;
+}
+
+@keyframes html5 {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes css3 {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 90%;
+	}
+}
+
+@keyframes jquery {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes photoshop {
+	0% {
+		width: 0px;
+	}
+	100% {
+		width: 60%;
+	}
+}
+
+
+/*End Ul of kills*/
+
+/*Start of year-experienced*/
+
+.y-experienced {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 6px;
+	margin-bottom: 14px;
+	padding-bottom: 7px;
+	color: aqua;
+}
+
+.y-experienced div {
+	display: inline;
+	font-size: 24px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.y-experienced div span {
+	color: #e931f5;
+	font-size: 25px;
+	font-family: 'Fontdiner Swanky', cursive;
+}
+
+.y-experienced .fas {
+	padding-left: 9px;
+}
+
+/*End of year-experienced*/
+
 /*End style of page skills*/
+
+/*Start Media Query here*/
 
 @media (max-width:1000px) {
 	.home_info {
@@ -383,4 +538,29 @@ span.el_info_f {
 		}
 	}
 
+
+	/*Media query for second page of skills*/
+	@media (max-width:1000px) {
+		.Strong .address {
+			margin-right: 73px;
+		}
+
+		.Familliar .address {
+			margin-right: 54px;
+		}
+
+		.Familliar,
+		.Strong,
+		.Experienced {
+			margin-bottom: 12px;
+		}
+
+		.Experienced {
+			padding-left: 2px;
+		}
+		.Familliar {
+			padding-right: 2px;
+		}
+	}
+	/*Media query for second page of skills*/
 	/*End media query*/
