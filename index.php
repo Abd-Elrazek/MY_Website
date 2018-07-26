@@ -183,13 +183,30 @@
 	</div>
 	<!--  start Services page  -->
 	<div class="card">
+
 		<div class="address-services">
 			<div class="services">
+				<i class="fas fa-bookmark fa-2x"></i>
 				<h2>Services</h2>
 			</div>
-			<h2>Services</h2>
+			<h2 class="h_page">What Can I do ?</h2>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6 col-xs-12">
+				<div class="designer">
+
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+				<div class="developer">
+
+				</div>
+
+			</div>
 		</div>
 	</div>
+
 	<!--  start Contact page  -->
 	<div class="card">
 		fdsfdsfdsf
@@ -205,7 +222,6 @@
 	<script src=" js/jquery-3.2.1.min.js "></script>
 	<script src="js/bootstrap.min.js "></script>
 	<script src="js/toggle-switch.js"></script>
-
 
 </body>
 

@@ -568,6 +568,58 @@ span.el_info_f {
 
 /*End style of page skills*/
 
+/*start style of page sevices*/
+
+.card .address-services .services {
+	text-align: center;
+	padding-top: 24px;
+}
+
+.card .address-services .services .fas {
+	display: inline;
+	color: #41d8f5;
+	font-size: 30px;
+}
+
+.card .address-services .services h2 {
+	display: inline;
+	color: #23b198;
+	margin-left: 4px;
+	font-weight: 500;
+	font-family: cursive;
+}
+
+.address-services .h_page {
+	padding-bottom: 37px;
+	color: #38bdb8;
+}
+
+.address-services .h_page::before {
+	top: 44%;
+	left: 49px;
+	width: 180px;
+	background-color: #23b198;
+}
+
+.address-services .h_page::after {
+	background-color: #0ac9ff;
+	top: 64%;
+	left: 84px;
+	width: 169px;
+}
+
+.designer,
+.developer {
+	border: aqua 2px solid;
+	height: 200px;
+	margin-bottom: 22px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+
+/*End style of page sevices*/
+
 /*Start Media Query here*/
 
 @media (max-width:1000px) {
