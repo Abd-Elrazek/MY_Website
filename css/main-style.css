@@ -610,13 +610,25 @@ span.el_info_f {
 
 .designer,
 .developer {
-	border: aqua 2px solid;
+	border: #cfd6d6f7 1px solid;
 	height: 200px;
 	margin-bottom: 22px;
 	margin-left: 55px;
 	margin-right: 55px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 200px;
+	background-color: #41d8f5;
+	font-size: 34px;
+	font-family: 'Mystery Quest', cursive;
+	font-weight: lighter;
+	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
 }
 
+.card-services {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
 
 /*End style of page sevices*/
 

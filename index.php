@@ -182,7 +182,7 @@
 		</div>
 	</div>
 	<!--  start Services page  -->
-	<div class="card">
+	<div class="card card-services">
 
 		<div class="address-services">
 			<div class="services">
@@ -195,12 +195,12 @@
 		<div class="row">
 			<div class="col-sm-6 col-xs-12">
 				<div class="designer">
-
+					UI Developer
 				</div>
 			</div>
 			<div class="col-sm-6 col-xs-12">
 				<div class="developer">
-
+					Web Developer
 				</div>
 
 			</div>
