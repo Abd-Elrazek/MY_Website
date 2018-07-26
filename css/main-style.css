@@ -590,6 +590,7 @@ span.el_info_f {
 }
 
 .address-services .h_page {
+	margin-top: 30px;
 	padding-bottom: 37px;
 	color: #38bdb8;
 }
@@ -613,15 +614,17 @@ span.el_info_f {
 	border: #cfd6d6f7 1px solid;
 	height: 200px;
 	margin-bottom: 22px;
-	margin-left: 55px;
-	margin-right: 55px;
+	margin-left: 7px;
+	border-radius: 7% 30% 7% 30%;
+	margin-right: 7px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 200px;
 	background-color: #41d8f5;
-	font-size: 34px;
+	font-size: 25px;
 	font-family: 'Mystery Quest', cursive;
-	font-weight: lighter;
+	font-weight: bolder;
+	cursor: default;
 	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
 }
 
@@ -774,7 +777,7 @@ span.el_info_f {
 }
 
 
-/*Media query for second page of skills*/
+/* Start Media query for second page of skills*/
 
 @media screen and (min-width: 989px) {
 	.Familliar {
@@ -826,6 +829,60 @@ span.el_info_f {
 }
 
 
-/*Media query for second page of skills*/
+/* End Media query for second page of skills*/
+
+/*Start Media query for third page of services*/
+
+@media screen and (min-width:767px) {
+	.designer,
+	.developer {
+		margin-top: 35px;
+		margin-bottom: 50px;
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.designer,
+	.developer {
+		font-size: 54px;
+	}
+}
+
+@media screen and (max-width:500px) {
+	.address-services .h_page {
+		font-size: 22px;
+		letter-spacing: 0;
+	}
+	.address-services .h_page::before {
+		top: 44%;
+		left: 49px;
+		width: 92px
+	}
+	.address-services .h_page::after {
+		top: 64%;
+		left: 58px;
+		width: 92px;
+	}
+
+	.designer,
+	.developer {
+		margin-left: 7px;
+		margin-right: 7px;
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (max-width:332px) {
+	.designer,
+	.developer {
+		font-weight: bolder;
+		font-size: 25px;
+	}
+}
+
+
+/*End Media query for third page of services*/
 
 /*End media query*/
