@@ -51,7 +51,7 @@
 					<li>
 						<div class="main_switch">
 							<i class="fas fa-moon fa-2x"></i>
-							<input type="checkbox" id="switch" />
+							<input type="checkbox" checked id="switch" />
 							<label class="T_" for="switch">Switch</label>
 							<i class="fas sun_icon fa-sun fa-2x"></i>
 						</div>
@@ -124,11 +124,11 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li><span class="html5"></span><em>HTML 5</em></li>
-								<li><span class="css3"></span><em>CSS 3</em></li>
-								<li><span class="jquery"></span><em>jQuery</em></li>
-								<li><span class="node"></span><em>node.js</em></li>
-								<li class="last-li"><span class="ajax"></span><em>Ajax</em></li>
+								<li title="90%"><span class="html5"></span><em>HTML 5</em></li>
+								<li title="92%"><span class="css3"></span><em>CSS 3</em></li>
+								<li title="90%"><span class="jquery"></span><em>jQuery</em></li>
+								<li title="65%"><span class="node"></span><em>node.js</em></li>
+								<li title="87%" class="last-li"><span class="ajax"></span><em>Ajax</em></li>
 							</ul>
 						</div>
 					</div>
@@ -144,11 +144,11 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li><span class="java"></span><em>Java</em></li>
-								<li><span class="php"></span><em>php</em></li>
-								<li><span class="wordpress"></span><em>WordPress</em></li>
-								<li><span class="bootstrap"></span><em>Bootstrap</em></li>
-								<li class="last-li"><span class="git"></span><em>Git, Github</em></li>
+								<li title="90%"><span class="java"></span><em>Java</em></li>
+								<li title="70%"><span class="php"></span><em>php</em></li>
+								<li title="60%"><span class="wordpress"></span><em>WordPress</em></li>
+								<li title="90%"><span class="bootstrap"></span><em>Bootstrap</em></li>
+								<li title="85%" class="last-li"><span class="git"></span><em>Git, Github</em></li>
 							</ul>
 						</div>
 					</div>
@@ -164,18 +164,18 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li><span class="responsive"></span><em>Responsive</em></li>
-								<li><span class="teamwork"></span><em>Teamwork</em></li>
-								<li><span class="photoshop"></span><em>Photoshop</em></li>
-								<li><span class="python"></span><em>Python</em></li>
-								<li class="last-li"><span class="sass"></span><em>Sass</em></li>
+								<li title="90%"><span class="responsive"></span><em>Responsive</em></li>
+								<li title="70%"><span class="teamwork"></span><em>Teamwork</em></li>
+								<li title="30%"><span class="photoshop"></span><em>Photoshop</em></li>
+								<li title="20%"><span class="python"></span><em>Python</em></li>
+								<li title="40%" class="last-li"><span class="sass"></span><em>Sass</em></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="y-experienced text-center">
-				<div> <span style="font-size:21px; color: cyan;">O</span>ne Year Of <span> Experience</span></div>
+				<div> <span style="font-size:21px; color: cyan; letter-spacing:1px;">O</span>ne Year Of <span> Experience</span></div>
 				<i class="fas fa-chart-line fa-2x"></i>
 			</div>
 		</div>

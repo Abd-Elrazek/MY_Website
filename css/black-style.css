@@ -1,0 +1,18 @@
+.skills ul > li {
+	margin-bottom: 70px;
+	background: #000;
+	height: 5px;
+	border-radius: 3px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.skills ul > li span {
+	height: 1px;
+	margin: 2px 0;
+	background: #2187e7;
+	position: absolute;
+	box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
+}
