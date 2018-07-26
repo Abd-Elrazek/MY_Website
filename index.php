@@ -20,6 +20,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 	<link rel="stylesheet" href="css/main-style.css" />
+	<link rel="stylesheet" href="css/white-color.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
 
 </head>
@@ -180,15 +181,20 @@
 			</div>
 		</div>
 	</div>
-	<!--  start About me  page  -->
+	<!--  start Services page  -->
 	<div class="card">
-		dsfdsfsdfdsff
+		<div class="address-services">
+			<div class="services">
+				<h2>Services</h2>
+			</div>
+			<h2>Services</h2>
+		</div>
 	</div>
-	<!--  start Sevices page  -->
+	<!--  start Contact page  -->
 	<div class="card">
 		fdsfdsfdsf
 	</div>
-	<!--  start Contact page  -->
+	<!--  start About page  -->
 	<div class="card">
 		fdsfsdf
 	</div>

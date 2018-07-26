@@ -1,3 +1,5 @@
+/*Start page of skills*/
+
 .skills ul > li {
 	margin-bottom: 70px;
 	background: #000;
@@ -16,3 +18,5 @@
 	position: absolute;
 	box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
 }
+
+/*End page of skills*/
