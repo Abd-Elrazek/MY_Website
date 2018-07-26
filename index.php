@@ -176,8 +176,10 @@
 				</div>
 			</div>
 			<div class="y-experienced text-center">
-				<div> <span style="font-size:21px; color: cyan; letter-spacing:1px;">O</span>ne Year Of <span> Experience</span></div>
+				<div> <span style="font-size:21px; color: #e931f5; letter-spacing:1px;">O</span>ne Year Of <span> Experience</span></div>
+				<span style="color: #e931f5;">
 				<i class="fas fa-chart-line fa-2x"></i>
+				</span>
 			</div>
 		</div>
 	</div>

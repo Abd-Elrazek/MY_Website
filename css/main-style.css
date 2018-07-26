@@ -63,7 +63,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	background-color: #e8e8f5;
+	background-color: #ffffff;
 	box-shadow: rgba(56, 72, 72, 0.24) -3px 7px 1px 0px, rgba(64, 62, 63, 0.36) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 
 }
@@ -71,12 +71,12 @@ body {
 .home_info {
 	margin-top: 72px;
 	font-family: HomemadeApple-Regular;
-	color: #23b198;
+	color: #41d8f5;
 }
 
 .home_info .list_info {
 	margin-bottom: 28px;
-	background-color: #e8e8f5;
+	background-color: #ffffff;
 	cursor: context-menu;
 }
 
@@ -121,8 +121,8 @@ span.el_info_f {
 	margin-right: auto;
 	margin-bottom: 9px;
 	width: 372px;
-	background-color: #e8e8f5;
-	color: #23b198;
+	background-color: #ffffff;
+	color: #41d8f5;
 	font-family: 'Nosifer', cursive;
 	font-weight: bold;
 	font-size: 20px;
@@ -144,8 +144,8 @@ span.el_info_f {
 
 .h_page {
 	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
-	color: #38bdb8;
+	font-weight: bolder;
+	color: #00d6ff;
 	margin-left: 70px;
 	margin-right: auto;
 	margin-bottom: 32px;
@@ -159,7 +159,7 @@ span.el_info_f {
 	content: "";
 	top: 110%;
 	left: 10px;
-	background-color: #c2c7c1;
+	background-color: #1ebbbb;
 	position: absolute;
 	width: 119px;
 	height: 3px;
@@ -173,7 +173,7 @@ span.el_info_f {
 	width: 115px;
 	height: 3px;
 	position: absolute;
-	background-color: #f2dede;
+	background-color: #41d8f5;
 	animation: move-line 0.4s ease-out forwards;
 	animation-delay: 0.1s;
 }
@@ -250,7 +250,8 @@ span.el_info_f {
 
 .font_h_skills {
 	font-family: 'Indie Flower', cursive;
-	color: #23b198;
+	color: #41d8f5;
+	font-weight: bold;
 }
 
 .address {
@@ -583,7 +584,7 @@ span.el_info_f {
 
 .card .address-services .services h2 {
 	display: inline;
-	color: #23b198;
+	color: #41d8f5;
 	margin-left: 4px;
 	font-weight: 500;
 	font-family: cursive;
@@ -630,8 +631,8 @@ span.el_info_f {
 }
 
 .card-services {
-	padding-bottom: 40px;
 	padding-top: 40px;
+	padding-bottom: 47px;
 }
 
 /*End style of page sevices*/
