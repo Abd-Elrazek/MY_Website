@@ -587,7 +587,7 @@ span.el_info_f {
 	color: #41d8f5;
 	margin-left: 4px;
 	font-weight: 500;
-	font-family: cursive;
+	font-family: 'Orbitron', sans-serif;
 }
 
 .address-services .h_page {
@@ -636,6 +636,53 @@ span.el_info_f {
 }
 
 /*End style of page sevices*/
+
+/*Start page of Contact Me*/
+
+.card-contact {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card-contact .address {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.card-contact .address h2 {
+	display: inline;
+	color: #41d8f5;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+.card-contact .address .fas {
+	display: inline;
+	padding-right: 7px;
+	color: #41d8f5;
+	font-size: 30px;
+}
+
+.card-contact .input-group {
+	padding-bottom: 20px;
+}
+
+.card-contact .name {
+	padding-left: 15px;
+}
+
+.card-contact .user {
+	padding-right: 15px;
+}
+
+
+
+
+
+
+/*Start page of Contact Me*/
 
 /*Start Media Query here*/
 
@@ -886,5 +933,17 @@ span.el_info_f {
 
 
 /*End Media query for third page of services*/
+
+/*Start query of fourth page of Contact Me*/
+
+@media screen and (max-width:767px) {
+	.card-contact .name,
+	.card-contact .user {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+/*End query of fourth page of Contact Me*/
 
 /*End media query*/

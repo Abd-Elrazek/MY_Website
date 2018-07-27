@@ -209,10 +209,31 @@
 		</div>
 	</div>
 	<!--End page of Services page -->
+
 	<!--  start Contact page  -->
-	<div class="card">
-		fdsfdsfdsf
+	<div class="card card-contact">
+		<div class="address">
+			<i class="fas fa-envelope-square fa-2x"></i>
+			<h2>Contact Me</h2>
+		</div>
+		<form>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12">
+					<div class="input-group name">
+						<span class="input-group-addon" id="basic-addon1">N</span>
+						<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12">
+					<div class="input-group user">
+						<span class="input-group-addon" id="basic-addon1">@</span>
+						<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+					</div>
+				</div>
+			</div>
+		</form>
 	</div>
+
 	<!--  start About page  -->
 	<div class="card">
 		fdsfsdf
