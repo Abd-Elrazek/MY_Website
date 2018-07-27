@@ -592,6 +592,7 @@ span.el_info_f {
 
 .address-services .h_page {
 	margin-top: 30px;
+	margin-left: 25px;
 	padding-bottom: 37px;
 	color: #38bdb8;
 }
@@ -665,21 +666,79 @@ span.el_info_f {
 	font-size: 30px;
 }
 
+.card-contact .form-control {
+	font-family: cursive;
+}
+
 .card-contact .input-group {
 	padding-bottom: 20px;
+	padding-top: 5px;
 }
 
 .card-contact .name {
 	padding-left: 15px;
 }
 
-.card-contact .user {
+.card-contact .phone {
 	padding-right: 15px;
 }
 
+.card-contact .user {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
+.form-control {
+	background-color: #ffffff9c;
+}
 
+.input-group-addon {
+	background-color: #4cd8f5;
+}
 
+.card-contact .message {
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 3px;
+}
+
+.card-contact .message textarea {
+	display: table-cell;
+	position: relative;
+	z-index: 2;
+	float: left;
+	width: 100%;
+	height: 70px;
+	padding: 6px 12px;
+	font-family: cursive;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #d25050;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px 4px 4px 4px;
+	resize: none;
+	overflow-x: hidden;
+}
+
+.recapatcha-google {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	height: 20px;
+	border: blue 2px solid;
+}
+
+.card-contact .send {
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.card-contact .btn-send {
+	width: 100%;
+}
 
 
 /*Start page of Contact Me*/
@@ -938,9 +997,15 @@ span.el_info_f {
 
 @media screen and (max-width:767px) {
 	.card-contact .name,
-	.card-contact .user {
+	.card-contact .phone {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.card-contact .message textarea {
+		height: 130px;
 	}
 }
 
