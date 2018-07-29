@@ -316,9 +316,18 @@
 		</div>
 		<!--S Footer-->
 		<div class="footer">
+			<div class="icon-social-list">
 
+				<a href="#" target="_blank">fdsf</a>
+
+				<a href="#" target="_blank"> fdf </a>
+
+				<a href="#" target="_blank"> fdf</a>
+
+			</div>
 		</div>
-		<!--E Footer-->
+	</div>
+	<!--E Footer-->
 	</div>
 
 
