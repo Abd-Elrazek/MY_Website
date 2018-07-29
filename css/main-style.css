@@ -745,7 +745,85 @@ span.el_info_f {
 }
 
 
-/*Start page of Contact Me*/
+/*End page of Contact Me*/
+
+/*S page of About*/
+
+.card-about {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card-about .address {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+
+}
+
+.card-about .address h2 {
+	display: inline;
+	color: #41d8f5;
+	font-family: 'Orbitron', sans-serif;
+
+}
+
+.card-about .address .fas {
+	display: inline;
+	padding-right: 7px;
+	color: #41d8f5;
+	font-size: 30px;
+}
+
+.card-about .lots-paragraph .h-para {
+	margin-bottom: 25px;
+	font-family: monospace;
+	color: cadetblue;
+	padding-left: 15px;
+}
+
+.card-about .lots-paragraph .h-para .para {
+	display: inline;
+	padding-left: 2px;
+}
+
+.card-about .lots-paragraph .h-para p {
+	display: inline;
+}
+
+.card-about .lots-paragraph .h-para .fas {
+	padding-left: 5px;
+	padding-right: 6px;
+}
+
+.card-about .lots-paragraph .clean {
+	margin-bottom: 22px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Fontdiner Swanky', cursive;
+	letter-spacing: 2px;
+	color: #36707b;
+}
+
+.card-about .lots-paragraph .clean span {
+	color: #00baf5;
+}
+
+/*S footer*/
+
+.footer {
+	margin-top: 15px;
+	width: 100%;
+	height: 190px;
+}
+
+.last-card {
+	margin-bottom: 0px;
+}
+
+/*E footer*/
+
+/*E page of About*/
 
 /*Start Media Query here*/
 
@@ -1014,5 +1092,15 @@ span.el_info_f {
 }
 
 /*End query of fourth page of Contact Me*/
+
+/*S query of five page of about*/
+
+@media screen and (max-width:674px) {
+	.card-about .lots-paragraph .clean span {
+		visibility: hidden;
+	}
+}
+
+/*E query of five page of about*/
 
 /*End media query*/

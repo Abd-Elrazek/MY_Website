@@ -45,7 +45,7 @@
 					<li><a class="h" href="#">Skills</a></li>
 					<li><a class="h" href="#">Services</a></li>
 					<li><a class="h" href="#">Contact</a></li>
-					<li><a class="h" href="#">About Me</a></li>
+					<li><a class="h" href="#">About</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -265,10 +265,61 @@
 	</div>
 
 	<!--  start About page  -->
-	<div class="card">
-		fdsfsdf
-	</div>
+	<div class="card last-card">
+		<div class="card-about">
+			<div class="address">
+				<i class="fas fa-leaf fa-2x"></i>
+				<h2>About</h2>
+			</div>
+			<div class="lots-paragraph">
+				<p class="text-center clean"> <span>&rArr;</span> Clean, Smart and Effective websites <span>&lArr;</span></p>
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> From scoping requirements to planning content — through design and development — collaboration between myself and clients is paramount.
+						</p>
+					</div>
+				</div>
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> I'm an professional Website Engineer or as most people call it... a Web Designer, Web Developer. eCommerce Websites, Content Management Systems, Graphic Design.
+						</p>
+					</div>
+				</div>
 
+
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> I'm happy to take on any project from small bespoke graphic work to large scale web sites.
+						</p>
+					</div>
+				</div>
+
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> I'm always curious to know new people. Also only For Coffee.
+						</p>
+					</div>
+				</div>
+
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> I'm writing on Keyboard 50 word per minute(wpm) : <a href="https://10fastfingers.com/user/1524952/" target="_blank" title="click here to see chart ">"Try it your self"</a>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--S Footer-->
+		<div class="footer">
+
+		</div>
+		<!--E Footer-->
+	</div>
 
 
 	<!-- basic js load..... -->
