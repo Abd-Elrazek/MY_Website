@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-	<title> &hearts; A B D E l R A Z E K &hearts;</title>
+	<title> &hearts; A B D E l R A Z E K &hearts; | Developer</title>
 	<meta charset="UTF-8" />
 	<meta content="Contact Us" name="description" />
 	<meta content="Contact Us " name="twitter:description" />
@@ -273,6 +273,7 @@
 			</div>
 			<div class="lots-paragraph">
 				<p class="text-center clean"> <span>&rArr;</span> Clean, Smart and Effective websites <span>&lArr;</span></p>
+
 				<div class="h-para">
 					<i class="fas fa-certificate fa-spin fa-1x"></i>
 					<div class="para">
@@ -304,11 +305,18 @@
 						</p>
 					</div>
 				</div>
+				<div class="h-para">
+					<i class="fas fa-certificate fa-spin fa-1x"></i>
+					<div class="para">
+						<p class="lead"> I have <mark style="color: #e6067f;">Experience &nbsp;</mark> with SQL Databases Such as MYSQL and Oracle.
+						</p>
+					</div>
+				</div>
 
 				<div class="h-para">
 					<i class="fas fa-certificate fa-spin fa-1x"></i>
 					<div class="para">
-						<p class="lead"> I'm writing on Keyboard 50 word per minute(wpm) : <a href="https://10fastfingers.com/user/1524952/" target="_blank" title="click here to see chart ">"Try it your self"</a>.
+						<p class="lead"> I'm writing on Keyboard <mark style="color: #e6067f;">50</mark> word per minute(wpm) : <a href="https://10fastfingers.com/user/1524952/" target="_blank" title="click here to see chart ">"Try it your self"</a>.
 						</p>
 					</div>
 				</div>
