@@ -825,17 +825,22 @@ span.el_info_f {
 }
 
 .footer .icon-social-list {
-	margin-top: 80px;
+	margin-top: 27px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 9em;
+	width: 12em;
 }
 
 .footer .icon-social-list a {
-	padding-right: 8px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
+.footer .icon-social-list i:hover {
+	color: #e7e7e7;
 }
+
+
 
 .last-card {
 	margin-bottom: 2px;

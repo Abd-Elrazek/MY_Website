@@ -325,24 +325,22 @@
 		<!--S Footer-->
 		<div class="footer">
 			<div class="icon-social-list">
+				<a class="Twitter" href="#" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
 
-				<a href="#" target="_blank">fdsf</a>
+				<a class="Facebook" href="#" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
 
-				<a href="#" target="_blank"> fdf </a>
-
-				<a href="#" target="_blank"> fdf</a>
-
+				<a class="Github" href="#" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
 			</div>
+			<div class="copy-right" </div>
+			</div>
+			<!--E Footer-->
 		</div>
-	</div>
-	<!--E Footer-->
-	</div>
 
 
-	<!-- basic js load..... -->
-	<script src=" js/jquery-3.2.1.min.js "></script>
-	<script src="js/bootstrap.min.js "></script>
-	<script src="js/toggle-switch.js"></script>
+		<!-- basic js load..... -->
+		<script src=" js/jquery-3.2.1.min.js "></script>
+		<script src="js/bootstrap.min.js "></script>
+		<script src="js/toggle-switch.js"></script>
 
 </body>
 
