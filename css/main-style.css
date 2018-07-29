@@ -813,12 +813,17 @@ span.el_info_f {
 
 .footer {
 	margin-top: 15px;
+	margin-bottom: 2px;
 	width: 100%;
-	height: 190px;
+	height: 176px;
+	border-top-left-radius: 87%;
+	border-top: #5fa7b8 2px solid;
+	border-top-right-radius: 87%;
+	background-color: #0080a587;
 }
 
 .last-card {
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 }
 
 /*E footer*/
