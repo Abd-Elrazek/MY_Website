@@ -327,11 +327,15 @@
 			<div class="icon-social-list">
 				<a class="Twitter" href="#" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
 
-				<a class="Facebook" href="#" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+				<a class="Facebook" href="https://www.facebook.com/abdelrazek.n3" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
 
 				<a class="Github" href="#" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
 			</div>
-			<div class="copy-right" </div>
+			<div class="copy-right text-center">
+				<p>
+					Copyrights &copy; 2018 <span class="right">, All Rights Reserved By <span class = "abdelrazek"> Abdelrazek </span></span>
+
+				</p>
 			</div>
 			<!--E Footer-->
 		</div>

@@ -825,7 +825,7 @@ span.el_info_f {
 }
 
 .footer .icon-social-list {
-	margin-top: 27px;
+	margin-top: 75px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 12em;
@@ -840,7 +840,20 @@ span.el_info_f {
 	color: #e7e7e7;
 }
 
+.footer .copy-right {
+	margin-top: 4px;
+	font-size: 20px;
+	font-family: monospace;
+	letter-spacing: 1px;
+	color: #31708f;
+}
 
+.footer .copy-right p .abdelrazek {
+	font-family: 'Righteous', cursive;
+	color: #f9f7f8;
+	background-color: deeppink;
+	text-shadow: 0 0 4px black;
+}
 
 .last-card {
 	margin-bottom: 2px;
@@ -1123,6 +1136,12 @@ span.el_info_f {
 @media screen and (max-width:674px) {
 	.card-about .lots-paragraph .clean span {
 		visibility: hidden;
+	}
+}
+
+@media screen and (max-width:670px) {
+	.footer .copy-right .right {
+		display: none;
 	}
 }
 
