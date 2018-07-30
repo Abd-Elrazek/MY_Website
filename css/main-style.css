@@ -42,7 +42,7 @@ body {
 }
 
 .inside_card {
-	padding-bottom: 13px;
+	padding-bottom: 45px;
 	cursor: default;
 }
 
@@ -115,7 +115,7 @@ span.el_info_f {
 .wiiajtb,
 .iase {
 	display: block;
-	margin-top: 25px;
+	margin-top: 35px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 9px;
@@ -147,8 +147,8 @@ span.el_info_f {
 	color: #00d6ff;
 	margin-left: 70px;
 	margin-right: auto;
-	margin-bottom: 32px;
-	margin-top: 23px;
+	margin-bottom: 51px;
+	margin-top: 22px;
 	font-size: 25px;
 	letter-spacing: 5px;
 	position: relative;
@@ -540,7 +540,7 @@ span.el_info_f {
 .y-experienced {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 2px;
+	margin-top: 27px;
 	margin-bottom: 14px;
 	padding-bottom: 7px;
 	font-weight: bold;
@@ -637,7 +637,8 @@ span.el_info_f {
 
 .card-services .hire_me {
 	text-align: center;
-	margin-top: 20px;
+	margin-bottom: 8px;
+	margin-top: 30px;
 
 }
 
@@ -669,8 +670,8 @@ span.el_info_f {
 
 .card-contact .address {
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 36px;
+	padding-bottom: 36px;
 
 }
 
@@ -694,8 +695,8 @@ span.el_info_f {
 }
 
 .card-contact .input-group {
-	padding-bottom: 20px;
-	padding-top: 5px;
+	padding-bottom: 30px;
+	padding-top: 8px;
 }
 
 .card-contact .name {
@@ -750,8 +751,8 @@ span.el_info_f {
 }
 
 .recapatcha-google {
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 35px;
+	margin-bottom: 35px;
 	margin-right: 15px;
 	margin-left: 15px;
 	height: 20px;
@@ -779,9 +780,8 @@ span.el_info_f {
 
 .card-about .address {
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 20px;
-
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .card-about .address h2 {
@@ -823,7 +823,7 @@ span.el_info_f {
 }
 
 .card-about .lots-paragraph .clean {
-	margin-bottom: 22px;
+	margin-bottom: 35px;
 	font-size: 25px;
 	font-weight: bold;
 	font-family: 'Fontdiner Swanky', cursive;
@@ -838,7 +838,7 @@ span.el_info_f {
 /*S footer*/
 
 .footer {
-	margin-top: 15px;
+	margin-top: 45px;
 	margin-bottom: 2px;
 	width: 100%;
 	height: 176px;
