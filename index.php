@@ -318,6 +318,9 @@
 					<div class="para">
 						<p class="lead"> I'm writing on Keyboard <mark style="color: #e6067f;">50</mark> word per minute(wpm) : <a href="https://10fastfingers.com/user/1524952/" target="_blank" title="click here to see chart ">"Try it your self"</a>.
 						</p>
+						<div>
+							<img src="http://lorempixel.com/400/200" />
+						</div>
 					</div>
 				</div>
 			</div>
