@@ -236,7 +236,7 @@
 				<div class="col-xs-12">
 					<div class="input-group user">
 						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+						<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
 					</div>
 				</div>
 				<div class="col-xs-12">
