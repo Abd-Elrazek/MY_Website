@@ -325,11 +325,11 @@
 		<!--S Footer-->
 		<div class="footer">
 			<div class="icon-social-list">
-				<a class="Twitter" href="#" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
+				<a class="Twitter" href="https://twitter.com/abdelrazek_n" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
 
 				<a class="Facebook" href="https://www.facebook.com/abdelrazek.n3" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
 
-				<a class="Github" href="#" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+				<a class="Github" href="https://github.com/Abd-Elrazek" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
 			</div>
 			<div class="copy-right text-center">
 				<p>
