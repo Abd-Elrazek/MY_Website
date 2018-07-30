@@ -635,6 +635,25 @@ span.el_info_f {
 	padding-bottom: 47px;
 }
 
+.card-services .hire_me {
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.card-services .hire_me .btn-group-lg > .btn {
+	width: 160px;
+	border-radius: 7% 30% 16% 20%;
+	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+}
+
+.btn-default {
+	color: #f5fffa;
+	background-color: #ff149387;
+	border-color: #41d8f5;
+	font-family: cursive;
+}
+
 /*End style of page sevices*/
 
 /*Start page of Contact Me*/
@@ -787,6 +806,8 @@ span.el_info_f {
 	padding-left: 2px;
 }
 
+
+
 .card-about .lots-paragraph .h-para p {
 	display: inline;
 }
@@ -856,7 +877,7 @@ span.el_info_f {
 }
 
 .last-card {
-	margin-bottom: 2px;
+	margin-bottom: 12px;
 }
 
 /*E footer*/

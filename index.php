@@ -41,11 +41,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav list_right">
-					<li class="active"><a class="h" href="#">Home <span class="sr-only">(current)</span></a></li>
-					<li><a class="h" href="#">Skills</a></li>
-					<li><a class="h" href="#">Services</a></li>
-					<li><a class="h" href="#">Contact</a></li>
-					<li><a class="h" href="#">About</a></li>
+					<li class="active"><a class="h" href="#home">Home <span class="sr-only">(current)</span></a></li>
+					<li><a class="h" href="#skills">Skills</a></li>
+					<li><a class="h" href="#services">Services</a></li>
+					<li><a class="h" href="#contact">Contact</a></li>
+					<li><a class="h" href="#about">About</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -64,7 +64,7 @@
 		<!-- /.container-fluid -->
 	</nav>
 	<!--  start home page  -->
-	<div class="card home">
+	<div class="card home" id="home">
 		<div class="inside_card">
 			<div class="row">
 				<h2 class="h_page">Who I am ? </h2>
@@ -110,7 +110,7 @@
 		</div>
 	</div>
 	<!--  start skills  page  -->
-	<div class="card">
+	<div class="card" id="skills">
 		<div class="inside_card">
 			<h2 class="h_page h_skills"> My Skills</h2>
 			<div class="row">
@@ -184,7 +184,7 @@
 		</div>
 	</div>
 	<!--  start Services page  -->
-	<div class="card card-services">
+	<div class="card card-services" id="services">
 
 		<div class="address-services">
 			<div class="services">
@@ -204,14 +204,22 @@
 				<div class="developer">
 					Web Developer
 				</div>
-
+			</div>
+			<div class="col-xs-12">
+				<div class="hire_me">
+					<a href="#contact">
+						<div class="btn-group btn-group-lg" role="group" aria-label="...">
+							<button type="button" class="btn btn-default">Hire Me</button>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!--End page of Services page -->
 
 	<!--  start Contact page  -->
-	<div class="card card-contact">
+	<div class="card card-contact" id="contact">
 		<div class="address">
 			<i class="fas fa-envelope-square fa-2x"></i>
 			<h2>Contact Me</h2>
@@ -265,7 +273,7 @@
 	</div>
 
 	<!--  start About page  -->
-	<div class="card last-card">
+	<div class="card last-card" id="about">
 		<div class="card-about">
 			<div class="address">
 				<i class="fas fa-leaf fa-2x"></i>
@@ -315,12 +323,9 @@
 
 				<div class="h-para">
 					<i class="fas fa-certificate fa-spin fa-1x"></i>
-					<div class="para">
+					<div class="para para-wpm">
 						<p class="lead"> I'm writing on Keyboard <mark style="color: #e6067f;">50</mark> word per minute(wpm) : <a href="https://10fastfingers.com/user/1524952/" target="_blank" title="click here to see chart ">"Try it your self"</a>.
 						</p>
-						<div>
-							<img src="http://lorempixel.com/400/200" />
-						</div>
 					</div>
 				</div>
 			</div>
