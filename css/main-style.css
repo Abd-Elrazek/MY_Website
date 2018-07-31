@@ -125,7 +125,7 @@ span.el_info_f {
 	font-family: 'Nosifer', cursive;
 	font-weight: bold;
 	font-size: 20px;
-	border-radius: 21% 27% 32% 20%;
+/*	border-radius: 15% 15% 15% 15%;*/
 	cursor: context-menu;
 	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
