@@ -623,12 +623,13 @@ span.el_info_f {
 	font-family: cursive;
 }
 
+/*Notice jBox */
+
 .jBox-content,
 .jBox-title {
 	text-align: center;
 	background: #ff149387;
 	font-family: 'Orbitron', sans-serif;
-	font-weight: bold;
 	letter-spacing: 1px;
 	color: #f5fffa;
 }
