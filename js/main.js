@@ -7,6 +7,5 @@ $('[data-toggle="tip"]').tooltip({
 $('[data-toggle="tooltip"]').tooltip({
 	animated: 'fade',
 	placement: 'top',
-	background: 'white',
 	html: true
 });
