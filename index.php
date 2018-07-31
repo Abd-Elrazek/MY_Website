@@ -13,15 +13,21 @@
 	<!-- for Device mobile -->
 	<meta name="Content" content="width=device-width,initial-scale=1">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	<!-- css -->
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-google.css" />
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link rel="stylesheet" href="css/jBox/jBox.css">
+
 	<link rel="stylesheet" href="css/main-style.css" />
 	<link rel="stylesheet" href="css/white-color.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
+
+	<!--S fonts google -->
+	<link rel="stylesheet" href="css/font-google.css" />
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<!--E fonts google -->
 
 </head>
 
@@ -184,7 +190,7 @@
 		</div>
 	</div>
 	<!--  start Services page  -->
-	<div class="card card-services" id="services">
+	<div class="card card-services" onclick="notehire()" id="services">
 
 		<div class="address-services">
 			<div class="services">
@@ -337,11 +343,13 @@
 		<!--S Footer-->
 		<div class="footer">
 			<div class="icon-social-list">
-				<a class="Twitter" href="https://twitter.com/abdelrazek_n" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
 
-				<a class="Facebook" href="https://www.facebook.com/abdelrazek.n3" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+				<a class="tool-tips" href="https://twitter.com/abdelrazek_n" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a>
 
-				<a class="Github" href="https://github.com/Abd-Elrazek" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+				<a class="tool-tips" href="https://www.facebook.com/abdelrazek.n3" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+
+				<a class="tool-tips" href="https://github.com/Abd-Elrazek" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+
 			</div>
 			<div class="copy-right text-center">
 				<p>
@@ -356,9 +364,10 @@
 		<!-- basic js load..... -->
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js "></script>
+		<script src="js/jBox/jBox.js"></script>
+		<script src="js/tooltips.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/toggle-switch.js"></script>
-
 </body>
 
 </html>
