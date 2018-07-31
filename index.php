@@ -12,7 +12,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<!-- for Device mobile -->
 	<meta name="Content" content="width=device-width,initial-scale=1">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
 	<link rel="stylesheet" href="css/font-google.css" />
