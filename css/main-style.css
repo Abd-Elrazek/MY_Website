@@ -659,6 +659,8 @@ span.el_info_f {
 	font-family: cursive;
 }
 
+
+
 /*End style of page sevices*/
 
 /*Start page of Contact Me*/
@@ -833,6 +835,15 @@ span.el_info_f {
 
 .card-about .lots-paragraph .clean span {
 	color: #00baf5;
+}
+
+.card-about .lots-paragraph .tooltip-inner {
+	background-color: unset;
+
+}
+
+.card-about .lots-paragraph .tooltip.top .tooltip-arrow {
+	border-top-color: #00baf5;
 }
 
 /*S footer*/

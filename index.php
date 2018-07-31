@@ -125,11 +125,11 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li title="90%"><span class="html5"></span><em>HTML 5</em></li>
-								<li title="92%"><span class="css3"></span><em>CSS 3</em></li>
-								<li title="90%"><span class="jquery"></span><em>jQuery</em></li>
-								<li title="65%"><span class="node"></span><em>node.js</em></li>
-								<li title="87%" class="last-li"><span class="ajax"></span><em>Ajax</em></li>
+								<li data-toggle="tip" title="&lang; 90% &rang;"><span class="html5"></span><em>HTML 5</em></li>
+								<li data-toggle="tip" title="&lang; 92% &rang;"><span class="css3"></span><em>CSS 3</em></li>
+								<li data-toggle="tip" title="&lang; 90% &rang;"><span class="jquery"></span><em>jQuery</em></li>
+								<li data-toggle="tip" title="&lang; 65% &rang;"><span class="node"></span><em>node.js</em></li>
+								<li data-toggle="tip" title="&lang; 87% &rang;" class="last-li"><span class="ajax"></span><em>Ajax</em></li>
 							</ul>
 						</div>
 					</div>
@@ -145,11 +145,11 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li title="90%"><span class="java"></span><em>Java</em></li>
-								<li title="70%"><span class="php"></span><em>php</em></li>
-								<li title="60%"><span class="wordpress"></span><em>WordPress</em></li>
-								<li title="90%"><span class="bootstrap"></span><em>Bootstrap</em></li>
-								<li title="85%" class="last-li"><span class="git"></span><em>Git, Github</em></li>
+								<li data-toggle="tip" title="&lang; 90% &rang;"><span class="java"></span><em>Java</em></li>
+								<li data-toggle="tip" title="&lang; 70% &rang;"><span class="php"></span><em>php</em></li>
+								<li data-toggle="tip" title="&lang; 60% &rang;"><span class="wordpress"></span><em>WordPress</em></li>
+								<li data-toggle="tip" title="&lang; 90% &rang;"><span class="bootstrap"></span><em>Bootstrap</em></li>
+								<li data-toggle="tip" title="&lang; 85% &rang;" class="last-li"><span class="git"></span><em>Git, Github</em></li>
 							</ul>
 						</div>
 					</div>
@@ -165,11 +165,11 @@
 						</div>
 						<div class="skills">
 							<ul class="list-unstyled">
-								<li title="90%"><span class="responsive"></span><em>Responsive</em></li>
-								<li title="70%"><span class="teamwork"></span><em>Teamwork</em></li>
-								<li title="30%"><span class="photoshop"></span><em>Photoshop</em></li>
-								<li title="20%"><span class="python"></span><em>Python</em></li>
-								<li title="40%" class="last-li"><span class="sass"></span><em>Sass</em></li>
+								<li data-toggle="tip" title="&lang; 90% &rang;"><span class="responsive"></span><em>Responsive</em></li>
+								<li data-toggle="tip" title="&lang; 70% &rang;"><span class="teamwork"></span><em>Teamwork</em></li>
+								<li data-toggle="tip" title="&lang; 30% &rang;"><span class="photoshop"></span><em>Photoshop</em></li>
+								<li data-toggle="tip" title="&lang; 20% &rang;"><span class="python"></span><em>Python</em></li>
+								<li data-toggle="tip" title="&lang; 40% &rang;" class="last-li"><span class="sass"></span><em>Sass</em></li>
 							</ul>
 						</div>
 					</div>
@@ -324,7 +324,11 @@
 				<div class="h-para">
 					<i class="fas fa-certificate fa-spin fa-1x"></i>
 					<div class="para para-wpm">
-						<p class="lead"> I'm writing on Keyboard <mark style="color: #e6067f;">50</mark> word per minute(wpm) : <a data-toggle="tooltip" href="https://10fastfingers.com/user/1524952/" target="_blank" title="<img src = 'images/50word.png'/>">"Try it your self"</a>.
+						<p class="lead"> I'm writing on Keyboard <mark style="color: #e6067f;">50</mark> word per minute(wpm) :
+							<a data-toggle="tooltip" href="https://10fastfingers.com/user/1524952/" target="_blank" title="
+							<img style = 'border:#5fa7b8  1px solid; margin-right:auto;' src = 'images/50word.png'/>
+							">"Try it your self"
+							</a>.
 						</p>
 					</div>
 				</div>
