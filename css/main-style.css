@@ -76,7 +76,8 @@ body {
 .home_info .list_info {
 	margin-bottom: 28px;
 	background-color: #41d8f5;
-	cursor: context-menu;
+	cursor: default;
+	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
 
 .home_info .list_info .el_info_right {
@@ -125,7 +126,7 @@ span.el_info_f {
 	font-family: 'Nosifer', cursive;
 	font-weight: bold;
 	font-size: 20px;
-/*	border-radius: 15% 15% 15% 15%;*/
+	/*	border-radius: 15% 15% 15% 15%;*/
 	cursor: context-menu;
 	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
@@ -920,7 +921,7 @@ span.el_info_f {
 @media (max-width:1000px) {
 	.home_info {
 		font-size: 22px;
-		border-left: #23b198 1px solid;
+		border-left: #41d8f5 1px dashed;
 	}
 	.fsd,
 	.wiiajtb,
