@@ -3,8 +3,8 @@
 var checked = function () {
 	var n = document.getElementById("switch").checked;
 	if (n)
-		$('.navbar-default').css("background-color", "rgb(255, 255, 255)");
-	$('.navbar-default .navbar-nav li a').css("color", "black");
+		//		$('.navbar-default').css("background-color", "rgb(255, 255, 255)");
+		$('.navbar-default .navbar-nav li a').css("color", "black");
 	$('.T_').css("background", "#222"); // T_ class for label for chechbox
 	$('.navbar-default .navbar-nav .active a').css({
 		"background-color": "#222",
@@ -17,7 +17,6 @@ var checked = function () {
 	$(".card").css("background", "url('images/white.jpg')")
 	//	$(".card").css("box-shadow", "rgba(99, 97, 97, 0.58) 0px 8px 0px 0px, rgba(64, 62, 63, 0.09) 1px 0px 0px 0px, rgba(0, 0, 0, 0.36) -11px 11px 5px 14px")
 	if (!n) {
-		$("body").css("background-color", "rgb(66, 66, 64)")
 		$(".card").css("box-shadow", "rgba(0, 0, 0, 0.69) 0px 6px 6px 0px, rgba(10, 6, 9, 0.6) 0px 1px 1px 0px, rgba(0, 0, 0, 0.28) 0px 10px 4px 14px")
 		$('.navbar-default .navbar-nav li a').css("color", "rgb(255, 255, 255)");
 		$('.T_').css("background", "rgb(255, 255, 255)");
