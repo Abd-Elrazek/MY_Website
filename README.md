@@ -30,7 +30,7 @@ Abd-Elrazek '@user in our team or mine
 
 ' Attch files by dragging & dropping, selecting them, or pasting from the clipboard
 
-- ### ![image](http://myprintscreen.com/s/vczq/f67cef2ca0) main Colors in my website 
+- ### ![image](https://photos.app.goo.gl/V74qGVaLii9YJfLq7) main Colors in my website 
 1. ![image](http://myprintscreen.com/s/vcxu/42b04f3b61)
 2. ![image](http://myprintscreen.com/s/vcxx/9073baba46)
 3. ![image](http://myprintscreen.com/s/vcy1/3ba540dc47)
