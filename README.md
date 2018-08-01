@@ -1,4 +1,4 @@
-# Some Short Keys to style markdown in Github
+# Some Short Keys to style GitHub Flavored Markdown
 ```
 ' ```
 <> "insert Code"
