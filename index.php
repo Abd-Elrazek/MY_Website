@@ -32,7 +32,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
+	<nav id="navbar" class="navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -368,6 +368,7 @@
 		<script src="js/tooltips.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/toggle-switch.js"></script>
+		<script src="js/scroll_up.js"></script>
 </body>
 
 </html>

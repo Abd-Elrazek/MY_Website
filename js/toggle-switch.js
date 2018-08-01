@@ -14,7 +14,6 @@ var checked = function () {
 	$(".toggle_s").remove();
 	$(".sun_icon").css("color", "rgb(243, 226, 2)");
 	$(".fa-moon").css("color", "rgb(148, 148, 147)");
-	$(".navbar-default").css("border-color", "#222");
 	$(".card").css("background", "url('images/white.jpg')")
 	//	$(".card").css("box-shadow", "rgba(99, 97, 97, 0.58) 0px 8px 0px 0px, rgba(64, 62, 63, 0.09) 1px 0px 0px 0px, rgba(0, 0, 0, 0.36) -11px 11px 5px 14px")
 	if (!n) {
