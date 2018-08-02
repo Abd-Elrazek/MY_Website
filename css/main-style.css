@@ -27,18 +27,18 @@ body {
 	transition: all 2s ease-out;
 }
 
+}
+
 .navbar-default {
 	border-color: unset;
 }
 
-.navbar-default .navbar-nav li a:hover {
-	cursor: pointer;
-	border-bottom: solid 2px #1976D2;
-	text-decoration: none;
+.list_right li {
+	border-right: 2px solid #1a8a8f;
 }
 
-.list_right li {
-	border-right: 3px solid #111;
+.list_right .active {
+	border-right: 2px solid #f900ff;
 }
 
 .navbar-nav li a {
@@ -46,6 +46,37 @@ body {
 	font-weight: bold;
 	font-family: serif;
 }
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+	font-weight: ;
+	letter-spacing: 2px;
+}
+
+.navbar-default .navbar-nav li a:focus {
+	color: #1976D2;
+	background-color: #f9f9f9;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	cursor: pointer;
+	color: #1976D2;
+	border-bottom: solid 2px #1976D2;
+	text-decoration: none;
+	background-color: unset;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active a:focus {
+	background-color: #f900ff;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	color: #1976D2;
+}
+
 
 .card {
 	background: url("../images/white.jpg");
