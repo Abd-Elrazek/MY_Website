@@ -33,6 +33,24 @@ body {
 	border-color: unset;
 }
 
+.navbar-header .navbar-brand,
+.navbar-default .navbar-brand:focus {
+
+	color: white;
+	font-family: 'Knewave', cursive;
+	letter-spacing: 5px;
+	text-shadow: 0 0 2px #020202;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #cdd3e9;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #fff;
+}
+
 .list_right li {
 	border-right: 2px solid #1a8a8f;
 }
@@ -925,6 +943,13 @@ span.el_info_f {
 /*E page of About*/
 
 /*Start media query*/
+
+@media screen and (min-width:768px) {
+	.navbar-header .navbar-brand {
+		display: none;
+		visibility: hidden;
+	}
+}
 
 @media (max-width: 768px) {
 	.navbar {
