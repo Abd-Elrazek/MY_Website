@@ -55,9 +55,7 @@ body {
 	border-right: 2px solid #1a8a8f;
 }
 
-.list_right .active {
-	border-right: 2px solid #f900ff;
-}
+
 
 .navbar-nav li a {
 	padding-bottom: 0px;
