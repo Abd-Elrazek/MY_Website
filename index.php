@@ -363,9 +363,9 @@
 
 		<!-- basic js load..... -->
 		<script src="js/jquery-3.2.1.min.js"></script>
-		<script src="js/bootstrap.min.js "></script>
 		<script src="js/jBox/jBox.min.min.js"></script>
 		<script src="js/tooltips.js"></script>
+		<script src="js/bootstrap.min.js "></script>
 		<script src="js/main.js"></script>
 		<script src="js/toggle-switch.js"></script>
 		<script src="js/scroll_up.js"></script>
