@@ -19,7 +19,9 @@
 	<link rel="stylesheet" href="css/jBox/jBox.css">
 
 	<link rel="stylesheet" href="css/main-style.css" />
-	<link rel="stylesheet" href="css/white-color.css" />
+	<link rel="stylesheet" href="css/query_requesting.css" />
+	<link rel="stylesheet" href="css/sun-style.css" />
+	<link rel="stylesheet" href="css/night-style.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
 
 	<!--S fonts google -->
