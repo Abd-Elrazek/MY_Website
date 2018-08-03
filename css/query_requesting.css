@@ -113,7 +113,9 @@
 	.navbar-nav li {
 		margin-bottom: 11px;
 	}
-
+	.navbar-default .navbar-nav li a:hover {
+		border-bottom: unset;
+	}
 }
 
 @media screen and (min-width:767px) {
