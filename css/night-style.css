@@ -61,11 +61,11 @@ body {
 /*S page of home*/
 
 .home_image img {
-	box-shadow: rgba(56, 72, 72, 0.24) -3px 7px 1px 0px, rgba(64, 62, 63, 0.36) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
+	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
 .home_info {
-	color: #ffffff;
+	color: #999;
 }
 
 .home_info .list_info {
@@ -74,7 +74,7 @@ body {
 }
 
 .fa-square {
-	color: #e8e8f5;
+	color: #3a3a46;
 	box-shadow: rgba(79, 97, 97, 0.08) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgba(0, 0, 0, 0.39) -3px 1px 0px 0px;
 }
 
@@ -86,7 +86,7 @@ body {
 .wiiajtb,
 .iase {
 	background-color: #1a2531;
-	color: #ffffff;
+	color: #999;
 	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
@@ -108,7 +108,8 @@ body {
 
 .font_h_skills,
 .card .address .icon {
-	color: #41d8f5;
+	font-family: 'Exo', sans-serif;
+	color: #999;
 }
 
 /*Start Ul of kills*/
@@ -129,42 +130,39 @@ body {
 }
 
 .skills ul > li {
-	margin-bottom: 57px;
-	background: #fff;
+	margin-bottom: 70px;
+	background: #000;
 	height: 5px;
-	border-radius: 5px;
-	border-left: 1px solid #fff;
-	border-top: 5px solid #fff;
-	border-right: 1px solid #fff;
-	border-bottom: 5px solid #fff;
-	padding-bottom: 2px;
+	border-radius: 3px;
+	border-left: 1px solid #111;
+	border-top: 1px solid #111;
+	border-right: 1px solid #333;
+	border-bottom: 1px solid #333;
 }
 
 .skills ul > li em {
-	font-family: 'Indie Flower', cursive;
+	font-family: 'Exo', sans-serif;
 	font-size: 18px;
 	position: relative;
 	top: -30px;
-	font-weight: bolder;
-	padding-left: 8px;
 }
 
 .skills ul > li span {
-	height: 4px;
-	padding-top: 0px;
-	background: #06c8fffa;
+	height: 1px;
+	margin: 2px 0;
+	background: #2187e7;
 	position: absolute;
-	box-shadow: -3px 0px 4px 3px rgb(26, 208, 243);
+	box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
 }
 
 /*Start of year-experienced*/
 
 .y-experienced {
-	color: #0ac9ff;
+	color: #337ab7;
 }
 
 .y-experienced div span {
-	color: #e931f5;
+	color: #cdbece;
 }
 
 /* tooltip of skills */
@@ -184,34 +182,36 @@ body {
 /*Start page of services*/
 
 .card .address-services .services .fas {
-	color: #41d8f5;
+	color: #cec7c7;
 }
 
 .card .address-services .services h2 {
-	color: #41d8f5;
+	color: #999;
 }
 
 .address-services .h_page {
-	color: #38bdb8;
+	color: #ddd;
 }
 
 .address-services .h_page::before {
-	background-color: #23b198;
+	background-color: #bb1e9b;
+
 }
 
 .address-services .h_page::after {
-	background-color: #0ac9ff;
+	background-color: rgb(243, 18, 186);
 }
 
 .designer,
 .developer {
-	background-color: #41d8f5;
-	color: mintcream;
-	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+	border: #1b1f1ff7 1px solid;
+	background-color: #0f1b27;
+	color: #afa3a3;
+	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
 .card-services .hire_me .btn-group-lg > .btn {
-	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
 .card-services .hire_me .btn-group-lg > .btn:hover {
@@ -220,70 +220,83 @@ body {
 
 .btn-default {
 	color: #f5fffa;
-	background-color: #ff149387;
-	border-color: #41d8f5;
+	background-color: #1a2531;
+	border-color: #0a0a0a;
+}
+
+.btn-default:hover {
+	color: #333;
+	background-color: #365a80;
+	border-color: unset;
 }
 
 /*Notice jBox */
 
 .jBox-content,
 .jBox-title {
-	background: #ff149387;
-	color: #f5fffa;
+	color: #fbff0b;
+	background: #0780e8;
 }
 
 /*S page of Contact*/
 
 .card-contact .address h2 {
-	color: #41d8f5;
+	color: #999;
 }
 
 .card-contact .address .fas {
-	color: #41d8f5;
+	color: #cec7c7;
 }
 
 .form-control {
-	background-color: #ffffffc9;
-	border: 1px solid #41d8f5;
-	color: #41d8f5;
+	background-color: #151c23;
+	border: 1px solid #040f1b;
+	color: #009cea;
 }
 
 .input-group-addon {
-	background-color: #4cd8f5;
-	color: #fbfbfb;
+	background-color: #1a2531;
+	border: 1px solid #040f1b;
+	color: #ddd;
 }
 
 .card-contact .message textarea {
 	color: #0780e8;
-	border: 2px solid #41d8f5;
-	background-color: #ffffffc9;
+	border: 2px solid #040f1b;
+	background-color: #151c23;
 	background-image: none;
 }
 
 /* S page about*/
 
 .card-about .address h2 {
-	color: #41d8f5;
+	color: #999;
 }
 
 .card-about .address .fas {
-	color: #41d8f5;
+	color: #cec7c7;
 }
 
 .card-about .lots-paragraph .h-para {
-	color: cadetblue;
+	color: #fcf8e3;
 }
 
 .card-about .lots-paragraph .h-para .fas {
-	color: deeppink;
+	color: #f0ff13;
 }
 
 .card-about .lots-paragraph .clean {
-	color: #36707b;
+	color: #d4dbe2;
 }
 
 .card-about .lots-paragraph .clean span {
 	color: #00baf5;
+}
+
+.mark,
+mark {
+	background-color: #1a3450;
+	color: #f0ff13 !important;
 }
 
 .card-about .lots-paragraph .tooltip-inner {
@@ -298,7 +311,7 @@ body {
 
 .footer {
 	border-top: #5fa7b8 2px solid;
-	background-color: #0080a587;
+	background-color: #1a3858;
 	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgba(56, 175, 202, 0.41) -4px -1px 10px 4px;
 }
 
@@ -307,11 +320,14 @@ body {
 }
 
 .footer .copy-right {
-	color: #31708f;
+	color: #05b8f5;
 }
 
 .footer .copy-right p .abdelrazek {
 	color: #f9f7f8;
-	background-color: deeppink;
+	background-color: #2464ab;
 	text-shadow: 0 0 4px black;
 }
+
+
+/* spcial media query */

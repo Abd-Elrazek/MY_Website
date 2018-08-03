@@ -10,7 +10,6 @@
 	}
 	.home_info {
 		font-size: 23px;
-		border-left: #23b198 1px solid;
 	}
 
 	.fa-square {
@@ -27,7 +26,6 @@
 	/*Page home*/
 	.home_info {
 		font-size: 22px;
-		border-left: #41d8f5 1px dashed;
 	}
 	.fsd,
 	.wiiajtb,
@@ -86,7 +84,6 @@
 	/*page home*/
 	.home_info {
 		font-size: 18px;
-		border-left: #23b198 1px solid;
 	}
 	.fsd,
 	.wiiajtb,
