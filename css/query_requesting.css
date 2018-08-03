@@ -1,7 +1,8 @@
 /*Start media query*/
+
 @media (min-width: 1000px) {
 	/*page home*/
-	.fsd, 
+	.fsd,
 	.wiiajtb,
 	.iase {
 		width: 825px;
@@ -21,6 +22,7 @@
 	}
 
 }
+
 @media (max-width:1000px) {
 	/*Page home*/
 	.home_info {
@@ -96,22 +98,25 @@
 	}
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 	/*nav*/
 	.navbar-header .navbar-brand {
 		display: none;
 		visibility: hidden;
 	}
 }
+
 @media screen and (max-width: 768px) {
 	/*nav*/
 	.navbar {
 		border-radius: 0;
+		max-width: 100%;
+		left: 0;
 	}
 	.navbar-nav li {
 		margin-bottom: 11px;
 	}
-	
+
 }
 
 @media screen and (min-width:767px) {
@@ -130,7 +135,7 @@
 	.developer {
 		font-size: 54px;
 	}
-	
+
 	/*Contact page*/
 	.card-contact .name,
 	.card-contact .phone {
@@ -236,7 +241,7 @@
 		margin-left: 27px;
 		margin-right: 22px;
 	}
-	
+
 	/*Services page*/
 	.address-services .h_page {
 		font-size: 22px;
@@ -271,11 +276,11 @@
 	.iase {
 		width: 210px;
 	}
-	
+
 	.home_image img {
 		width: 238px;
 	}
-	
+
 	.home_info {
 		font-size: 16px;
 		margin-left: unset;
@@ -296,7 +301,7 @@
 		font-size: 14px;
 		margin-left: 0px;
 	}
-		.skills {
+	.skills {
 		margin-left: 5px;
 		margin-right: 5px;
 	}
@@ -307,5 +312,3 @@
 		font-size: 25px;
 	}
 }
-
-
