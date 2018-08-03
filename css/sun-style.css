@@ -90,6 +90,20 @@ body {
 	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
 
+.fsd::selection,
+.wiiajtb::selection,
+.iase::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.fsd::-moz-selection,
+.wiiajtb::-moz-selection,
+.iase::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
 .h_page {
 	color: #00d6ff;
 }
@@ -147,6 +161,16 @@ body {
 	top: -30px;
 	font-weight: bolder;
 	padding-left: 8px;
+}
+
+.skills ul > li em::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.skills ul > li em::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
 }
 
 .skills ul > li span {
@@ -209,6 +233,18 @@ body {
 	background-color: #41d8f5;
 	color: mintcream;
 	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+}
+
+.designer::selection,
+.dveloper::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.designer::-moz-selection,
+.developer::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
 }
 
 .card-services .hire_me .btn-group-lg > .btn {
@@ -285,6 +321,16 @@ body {
 
 .card-about .lots-paragraph .clean span {
 	color: #00baf5;
+}
+
+.card-about .lots-paragraph p::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.card-about .lots-paragraph p::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
 }
 
 .card-about .lots-paragraph .tooltip-inner {

@@ -90,6 +90,20 @@ body {
 	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
+.fsd::selection,
+.wiiajtb::selection,
+.iase::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.fsd::-moz-selection,
+.wiiajtb::-moz-selection,
+.iase::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
 .h_page {
 	color: #ddd;
 }
@@ -108,7 +122,6 @@ body {
 
 .font_h_skills,
 .card .address .icon {
-	font-family: 'Exo', sans-serif;
 	color: #999;
 }
 
@@ -123,6 +136,7 @@ body {
 	font-weight: bold;
 	color: #0586ab;
 }
+
 
 
 .skills ul {
@@ -153,6 +167,16 @@ body {
 	background: #2187e7;
 	position: absolute;
 	box-shadow: 0px 0px 10px 1px rgba(0, 198, 255, 0.4);
+}
+
+.skills ul > li em::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.skills ul > li em::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
 }
 
 /*Start of year-experienced*/
@@ -208,6 +232,18 @@ body {
 	background-color: #0f1b27;
 	color: #afa3a3;
 	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
+}
+
+.designer::selection,
+.dveloper::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.designer::-moz-selection,
+.developer::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
 }
 
 .card-services .hire_me .btn-group-lg > .btn {
@@ -297,6 +333,16 @@ body {
 	color: #00baf5;
 }
 
+.card-about .lots-paragraph p::selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
+.card-about .lots-paragraph p::-moz-selection {
+	color: #f0ff13;
+	background-color: #1a3450;
+}
+
 .mark,
 mark {
 	background-color: #1a3450;
@@ -318,6 +364,7 @@ mark {
 	background-color: #1a3858;
 	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgba(56, 175, 202, 0.41) -4px -1px 10px 4px;
 }
+
 
 .footer .icon-social-list i:hover {
 	color: #e7e7e7;
