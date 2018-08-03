@@ -1,3 +1,312 @@
-/*Start page of services*/
+html,
+body{
+	background-color: white;
+}
 
-/*End page of services*/
+/*Navbar header*/
+.navbar{
+	background-color: rgb(65, 216, 245);
+	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgb(65, 216, 245) 0px 8px 13px 3px;
+}
+
+.navbar-header .navbar-brand,
+.navbar-default .navbar-brand:focus{
+	color: white;
+	text-shadow: 0 0 2px #020202;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #cdd3e9;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background-color: #fff;
+}
+
+.list_right li {
+	border-right: 2px solid #1a8a8f;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav li a:focus {
+	color: #1976D2;
+	background-color: #f9f9f9;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #1976D2;
+	border-bottom: solid 2px #1976D2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active a:focus {
+	background-color: #f900ff;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+	color: #1976D2;
+}
+
+.card{
+	background: url("../images/white.jpg");
+}
+
+/*S page of home*/
+.home_image img {
+	box-shadow: rgba(56, 72, 72, 0.24) -3px 7px 1px 0px, rgba(64, 62, 63, 0.36) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
+}
+
+.home_info {
+	color: #ffffff;
+}
+
+.home_info .list_info {
+	background-color: #41d8f5;
+	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
+}
+
+.fa-square {
+	color: #e8e8f5;
+	box-shadow: rgba(79, 97, 97, 0.08) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgba(0, 0, 0, 0.39) -3px 1px 0px 0px;
+}
+
+.i_am {
+	color: black;
+}
+
+.fsd,
+.wiiajtb,
+.iase {
+	background-color: #41d8f5;
+	color: #ffffff;
+	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
+}
+
+.h_page {
+	color: #00d6ff;
+}
+
+.h_page::before {
+    background-color: #1ebbbb;
+}
+
+.h_page::after {
+	background-color: #41d8f5;
+}
+
+/*E page of home*/
+
+
+/*S page of skills and  some attributes not color only */
+.font_h_skills {
+	color: #41d8f5;
+}
+
+.card .address .icon {
+    color: #41d8f5;
+}
+
+/*Start Ul of kills*/
+
+.skills {
+	width: auto;
+	position: relative;
+	padding: 9px 0;
+	font-family: 'Exo', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0586ab;
+}
+
+
+.skills ul {
+	padding-top: 12px;
+}
+
+.skills ul > li {
+	margin-bottom: 57px;
+	background: #fff;
+	height: 5px;
+	border-radius: 5px;
+	border-left: 1px solid #fff;
+	border-top: 5px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 5px solid #fff;
+	padding-bottom: 2px;
+}
+
+.skills ul > li em {
+	font-family: 'Indie Flower', cursive;
+	font-size: 18px;
+	position: relative;
+	top: -30px;
+	font-weight: bolder;
+	padding-left: 8px;
+}
+
+.skills ul > li span {
+	height: 4px;
+	padding-top: 0px;
+	background: #06c8fffa;
+	position: absolute;
+	box-shadow: -3px 0px 4px 3px rgb(26, 208, 243);
+}
+
+/*Start of year-experienced*/
+.y-experienced {
+	color: #0ac9ff;
+}
+
+.y-experienced div span {
+	color: #e931f5;
+}
+
+/* tooltip of skills */
+.skills .tooltip-inner {
+	background-color: #00baf5;
+	color: white;
+
+}
+
+.skills .tooltip.top .tooltip-arrow {
+	border-top-color: #00baf5;
+}
+
+/*Epage of skills and some attributes not color only */
+
+
+/*Start page of services*/
+.card .address-services .services .fas {
+    color: #41d8f5;
+}
+
+.card .address-services .services h2 {
+	color: #41d8f5;
+}
+
+.address-services .h_page {
+	color: #38bdb8;
+}
+
+.address-services .h_page::before {
+	background-color: #23b198;
+}
+
+.address-services .h_page::after {
+	background-color: #0ac9ff;
+}
+
+.designer,
+.developer {
+	background-color: #41d8f5;
+	color: mintcream;
+	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+}
+
+.card-services .hire_me .btn-group-lg > .btn {
+	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
+}
+
+.card-services .hire_me .btn-group-lg > .btn:hover {
+	color: #41d8f5;
+}
+
+.btn-default {
+	color: #f5fffa;
+	background-color: #ff149387;
+	border-color: #41d8f5;
+}
+
+/*Notice jBox */
+
+.jBox-content,
+.jBox-title {
+  background: #ff149387;
+  color: #f5fffa;
+}
+/*S page of Contact*/
+
+.card-contact .address h2 {
+	color: #41d8f5;
+}
+
+.card-contact .address .fas {
+		color: #41d8f5;
+}
+
+.form-control {
+	background-color: #ffffffc9;
+	border: 1px solid #41d8f5;
+	color: #41d8f5;
+}
+
+.input-group-addon {
+	background-color: #4cd8f5;
+	color: #fbfbfb;
+}
+
+.card-contact .message textarea {
+	color: #0780e8;
+	border: 2px solid #41d8f5;
+	background-color: #ffffffc9;
+	background-image: none;
+}
+/* S page about*/
+.card-about .address h2 {
+		color: #41d8f5;
+}
+
+.card-about .address .fas {
+	color: #41d8f5;
+}
+
+.card-about .lots-paragraph .h-para {
+	color: cadetblue;
+}
+
+.card-about .lots-paragraph .h-para .fas {
+	color: deeppink;
+}
+
+.card-about .lots-paragraph .clean {
+	color: #36707b;
+}
+
+.card-about .lots-paragraph .clean span {
+	color: #00baf5;
+}
+
+.card-about .lots-paragraph .tooltip-inner {
+	background-color: unset;
+}
+
+.card-about .lots-paragraph .tooltip.top .tooltip-arrow {
+	border-top-color: #00baf5;
+}
+
+/* S footer */
+.footer {
+	border-top: #5fa7b8 2px solid;
+	background-color: #0080a587;
+	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgba(56, 175, 202, 0.41) -4px -1px 10px 4px;
+}
+
+.footer .icon-social-list i:hover {
+	color: #e7e7e7;
+}
+
+.footer .copy-right {
+    color: #31708f;
+}
+
+.footer .copy-right p .abdelrazek {
+	color: #f9f7f8;
+	background-color: deeppink;
+	text-shadow: 0 0 4px black;
+}

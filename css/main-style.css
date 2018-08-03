@@ -2,9 +2,8 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background-color: white;
 	overflow-x: hidden;
-	
+
 }
 
 /* Navbar header*/
@@ -14,14 +13,12 @@ body {
 	min-height: 46px;
 	position: fixed;
 	max-width: 99%;
-	width: 2600px;
 	left: 5px;
+	width: 2600px;
 	right: 3px;
 	border: unset;
 	top: 0;
 	z-index: 200;
-	background-color: rgb(65, 216, 245);
-	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgb(65, 216, 245) 0px 8px 13px 3px;
 	-webkit-transition: all 2s ease-out;
 	-moz-transition: all 2s ease-out;
 	-o-transition: all 2s ease-out;
@@ -36,26 +33,9 @@ body {
 
 .navbar-header .navbar-brand,
 .navbar-default .navbar-brand:focus {
-
-	color: white;
 	font-family: 'Knewave', cursive;
 	letter-spacing: 5px;
-	text-shadow: 0 0 2px #020202;
 }
-
-.navbar-default .navbar-brand:hover {
-	color: #cdd3e9;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-	background-color: #fff;
-}
-
-.list_right li {
-	border-right: 2px solid #1a8a8f;
-}
-
 
 
 .navbar-nav li a {
@@ -65,38 +45,19 @@ body {
 }
 
 .navbar-default .navbar-nav li a {
-	color: #fff;
 	font-weight: ;
 	letter-spacing: 2px;
 }
 
-.navbar-default .navbar-nav li a:focus {
-	color: #1976D2;
-	background-color: #f9f9f9;
-}
 
 .navbar-default .navbar-nav li a:hover {
 	cursor: pointer;
-	color: #1976D2;
-	border-bottom: solid 2px #1976D2;
 	text-decoration: none;
 	background-color: unset;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active a:focus {
-	background-color: #f900ff;
-	color: #fff;
-}
-
-.navbar-default .navbar-nav > .active > a:hover {
-	color: #1976D2;
-}
-
 
 .card {
-	background: url("../images/white.jpg");
 	max-width: 98%;
 	width: 2600px;
 	height: auto;
@@ -104,8 +65,8 @@ body {
 	margin-bottom: 22px;
 	margin-right: auto;
 	margin-left: auto;
-	overflow-y:hidden;
-	overflow-x:hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
 	box-shadow: rgba(99, 97, 97, 0.89) 0px 0px 0px 0px, rgba(64, 62, 63, 0.09) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 0px 4px 2px;
 }
 
@@ -131,21 +92,16 @@ body {
 	align-items: center;
 	justify-content: center;
 	display: flex;
-	box-shadow: rgba(56, 72, 72, 0.24) -3px 7px 1px 0px, rgba(64, 62, 63, 0.36) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
-
 }
 
 .home_info {
 	margin-top: 72px;
 	font-family: HomemadeApple-Regular;
-	color: #ffffff;
 }
 
 .home_info .list_info {
 	margin-bottom: 28px;
-	background-color: #41d8f5;
 	cursor: default;
-	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
 
 .home_info .list_info .el_info_right {
@@ -167,12 +123,9 @@ span.el_info_f {
 
 .fa-square {
 	padding-right: 1px;
-	color: #e8e8f5;
-	box-shadow: rgba(79, 97, 97, 0.08) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgba(0, 0, 0, 0.39) -3px 1px 0px 0px;
 }
 
 .i_am {
-	color: black;
 	font-size: 22px;
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
@@ -189,14 +142,11 @@ span.el_info_f {
 	margin-right: auto;
 	margin-bottom: 9px;
 	width: 372px;
-	background-color: #41d8f5;
-	color: #ffffff;
 	font-family: 'Nosifer', cursive;
 	font-weight: bold;
 	font-size: 20px;
 	/*	border-radius: 15% 15% 15% 15%;*/
 	cursor: context-menu;
-	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
 }
 
 
@@ -213,7 +163,6 @@ span.el_info_f {
 .h_page {
 	font-family: 'Indie Flower', cursive;
 	font-weight: bolder;
-	color: #00d6ff;
 	margin-left: 70px;
 	margin-right: auto;
 	margin-bottom: 51px;
@@ -227,7 +176,6 @@ span.el_info_f {
 	content: "";
 	top: 110%;
 	left: 10px;
-	background-color: #1ebbbb;
 	position: absolute;
 	width: 119px;
 	height: 3px;
@@ -241,7 +189,6 @@ span.el_info_f {
 	width: 115px;
 	height: 3px;
 	position: absolute;
-	background-color: #41d8f5;
 	animation: move-line 0.4s ease-out forwards;
 	animation-delay: 0.1s;
 }
@@ -272,7 +219,6 @@ span.el_info_f {
 
 .font_h_skills {
 	font-family: 'Indie Flower', cursive;
-	color: #41d8f5;
 	font-weight: bold;
 }
 
@@ -289,55 +235,6 @@ span.el_info_f {
 	padding-right: 10px;
 	padding-left: 1px;
 	margin-left: 5px;
-	color: #41d8f5;
-
-}
-
-
-/*Start Ul of kills*/
-
-.skills {
-	width: auto;
-	position: relative;
-	padding: 9px 0;
-	font-family: 'Exo', sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	color: #0586ab;
-}
-
-
-.skills ul {
-	padding-top: 12px;
-}
-
-.skills ul > li {
-	margin-bottom: 57px;
-	background: #fff;
-	height: 5px;
-	border-radius: 5px;
-	border-left: 1px solid #fff;
-	border-top: 5px solid #fff;
-	border-right: 1px solid #fff;
-	border-bottom: 5px solid #fff;
-	padding-bottom: 2px;
-}
-
-.skills ul > li em {
-	font-family: 'Indie Flower', cursive;
-	font-size: 18px;
-	position: relative;
-	top: -30px;
-	font-weight: bolder;
-	padding-left: 8px;
-}
-
-.skills ul > li span {
-	height: 4px;
-	padding-top: 0px;
-	background: #06c8fffa;
-	position: absolute;
-	box-shadow: -3px 0px 4px 3px rgb(26, 208, 243);
 }
 
 .skills .html5 {
@@ -567,7 +464,6 @@ span.el_info_f {
 	margin-bottom: 14px;
 	padding-bottom: 7px;
 	font-weight: bold;
-	color: #0ac9ff;
 }
 
 .y-experienced div {
@@ -577,7 +473,6 @@ span.el_info_f {
 }
 
 .y-experienced div span {
-	color: #e931f5;
 	font-size: 25px;
 	font-family: 'Fontdiner Swanky', cursive;
 	letter-spacing: 3px;
@@ -588,16 +483,6 @@ span.el_info_f {
 }
 
 /*End of year-experienced*/
-
-.skills .tooltip-inner {
-	background-color: #00baf5;
-	color: white;
-
-}
-
-.skills .tooltip.top .tooltip-arrow {
-	border-top-color: #00baf5;
-}
 
 /*End style of page skills*/
 
@@ -610,13 +495,11 @@ span.el_info_f {
 
 .card .address-services .services .fas {
 	display: inline;
-	color: #41d8f5;
 	font-size: 30px;
 }
 
 .card .address-services .services h2 {
 	display: inline;
-	color: #41d8f5;
 	margin-left: 4px;
 	font-weight: 500;
 	font-family: 'Orbitron', sans-serif;
@@ -626,18 +509,15 @@ span.el_info_f {
 	margin-top: 30px;
 	margin-left: 25px;
 	padding-bottom: 37px;
-	color: #38bdb8;
 }
 
 .address-services .h_page::before {
 	top: 44%;
 	left: 49px;
 	width: 180px;
-	background-color: #23b198;
 }
 
 .address-services .h_page::after {
-	background-color: #0ac9ff;
 	top: 64%;
 	left: 84px;
 	width: 169px;
@@ -654,13 +534,10 @@ span.el_info_f {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 200px;
-	background-color: #41d8f5;
 	font-size: 25px;
 	font-family: 'Mystery Quest', cursive;
 	font-weight: bolder;
-	color: mintcream;
 	cursor: default;
-	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
 }
 
 .card-services {
@@ -678,17 +555,10 @@ span.el_info_f {
 .card-services .hire_me .btn-group-lg > .btn {
 	width: 160px;
 	border-radius: 7% 30% 16% 20%;
-	box-shadow: rgba(46, 51, 51, 0.12) -3px 7px 1px 0px, rgba(64, 62, 63, 0.23) -1px 11px 0px 0px, rgba(0, 0, 0, 0.44) -2px 3px 0px 0px;
 }
 
-.card-services .hire_me .btn-group-lg > .btn:hover {
-	color: #41d8f5;
-}
 
 .btn-default {
-	color: #f5fffa;
-	background-color: #ff149387;
-	border-color: #41d8f5;
 	font-family: cursive;
 }
 
@@ -697,10 +567,8 @@ span.el_info_f {
 .jBox-content,
 .jBox-title {
 	text-align: center;
-	background: #ff149387;
 	font-family: 'Orbitron', sans-serif;
 	letter-spacing: 1px;
-	color: #f5fffa;
 }
 
 /*End style of page sevices*/
@@ -721,7 +589,6 @@ span.el_info_f {
 
 .card-contact .address h2 {
 	display: inline;
-	color: #41d8f5;
 	font-family: 'Orbitron', sans-serif;
 
 }
@@ -729,7 +596,6 @@ span.el_info_f {
 .card-contact .address .fas {
 	display: inline;
 	padding-right: 7px;
-	color: #41d8f5;
 	font-size: 30px;
 }
 
@@ -756,15 +622,8 @@ span.el_info_f {
 	padding-right: 15px;
 }
 
-.form-control {
-	background-color: #ffffffc9;
-	border: 1px solid #41d8f5;
-	color: #41d8f5;
-}
 
 .input-group-addon {
-	background-color: #4cd8f5;
-	color: #fbfbfb;
 	font-weight: bold;
 }
 
@@ -785,10 +644,6 @@ span.el_info_f {
 	font-family: 'Orbitron', sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #0780e8;
-	background-color: #ffffffc9;
-	background-image: none;
-	border: 2px solid #41d8f5;
 	border-radius: 4px 4px 4px 4px;
 	resize: none;
 	overflow-x: hidden;
@@ -830,7 +685,6 @@ span.el_info_f {
 
 .card-about .address h2 {
 	display: inline;
-	color: #41d8f5;
 	font-family: 'Orbitron', sans-serif;
 
 }
@@ -838,14 +692,12 @@ span.el_info_f {
 .card-about .address .fas {
 	display: inline;
 	padding-right: 7px;
-	color: #41d8f5;
 	font-size: 30px;
 }
 
 .card-about .lots-paragraph .h-para {
 	margin-bottom: 25px;
 	font-family: monospace;
-	color: cadetblue;
 	padding-left: 15px;
 }
 
@@ -863,7 +715,6 @@ span.el_info_f {
 .card-about .lots-paragraph .h-para .fas {
 	padding-left: 5px;
 	padding-right: 6px;
-	color: deeppink;
 }
 
 .card-about .lots-paragraph .clean {
@@ -872,20 +723,6 @@ span.el_info_f {
 	font-weight: bold;
 	font-family: 'Fontdiner Swanky', cursive;
 	letter-spacing: 2px;
-	color: #36707b;
-}
-
-.card-about .lots-paragraph .clean span {
-	color: #00baf5;
-}
-
-.card-about .lots-paragraph .tooltip-inner {
-	background-color: unset;
-
-}
-
-.card-about .lots-paragraph .tooltip.top .tooltip-arrow {
-	border-top-color: #00baf5;
 }
 
 /*S footer*/
@@ -896,10 +733,7 @@ span.el_info_f {
 	width: 100%;
 	height: 176px;
 	border-top-left-radius: 31%;
-	border-top: #5fa7b8 2px solid;
 	border-top-right-radius: 87%;
-	background-color: #0080a587;
-	box-shadow: rgba(46, 51, 51, 0.12) 1px 7px 0px 0px, rgba(64, 62, 63, 0.23) 0px 0px 0px 0px, rgba(56, 175, 202, 0.41) -4px -1px 10px 4px;
 }
 
 .footer .icon-social-list {
@@ -914,32 +748,23 @@ span.el_info_f {
 	padding-left: 6px;
 }
 
-.footer .icon-social-list i:hover {
-	color: #e7e7e7;
-}
+
 
 .footer .copy-right {
 	margin-top: 4px;
 	font-size: 20px;
 	font-family: monospace;
 	letter-spacing: 1px;
-	color: #31708f;
 }
 
 .footer .copy-right p .abdelrazek {
 	font-family: 'Righteous', cursive;
-	color: #f9f7f8;
-	background-color: deeppink;
-	text-shadow: 0 0 4px black;
 }
 
 .last-card {
 	margin-bottom: 12px;
 }
 
-
-
 /*E footer*/
 
 /*E page of About*/
-
