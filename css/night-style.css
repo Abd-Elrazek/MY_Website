@@ -1,13 +1,13 @@
 html,
 body {
-	background-color: #3c3b3c;
+	background-color: #1a2531c9;
 }
 
 /*Navbar header*/
 
 .navbar {
-	background: #2b2b2b;
-	box-shadow: rgba(99, 97, 97, 0.89) 0px 0px 0px 0px, rgba(64, 62, 63, 0.09) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 0px 4px 2px;
+	background: #1a2531;
+	box-shadow: rgba(99, 97, 97, 0.89) 0px 0px 0px 0px, rgba(64, 62, 63, 0.09) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 8px 4px 5px;
 }
 
 .navbar-header .navbar-brand,
@@ -26,7 +26,7 @@ body {
 }
 
 .list_right li {
-	border-right: 2px solid #1a8a8f;
+	border-right: 2px solid #000000;
 }
 
 .navbar-default .navbar-nav li a {
@@ -34,19 +34,19 @@ body {
 }
 
 .navbar-default .navbar-nav li a:focus {
-	color: #1976D2;
+	color: #fff;
 	background-color: #f9f9f9;
 }
 
 .navbar-default .navbar-nav li a:hover {
-	color: #1976D2;
+	color: #00d6ff;
 	border-bottom: solid 2px #1976D2;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active a:focus {
-	background-color: #f900ff;
+	background-color: #213e5f;
 	color: #fff;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .card {
-	background: url("../images/night.gif") #161616;
+	background: #1a2531;
 }
 
 /*S page of home*/
@@ -69,8 +69,8 @@ body {
 }
 
 .home_info .list_info {
-	background-color: #41d8f5;
-	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
+	background-color: #1a2531;
+	box-shadow: rgba(15, 16, 16, 0.28) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgba(0, 0, 0, 0.25) -2px 3px 0px 0px;
 }
 
 .fa-square {
@@ -85,21 +85,21 @@ body {
 .fsd,
 .wiiajtb,
 .iase {
-	background-color: #41d8f5;
+	background-color: #1a2531;
 	color: #ffffff;
-	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
+	box-shadow: rgba(15, 16, 16, 0.67) -3px 7px 1px 0px, rgba(64, 62, 63, 0) -1px 11px 0px 0px, rgb(0, 0, 0) -2px 3px 0px 0px;
 }
 
 .h_page {
-	color: #00d6ff;
+	color: #ddd;
 }
 
 .h_page::before {
-	background-color: #1ebbbb;
+	background-color: #bb1e9b;
 }
 
 .h_page::after {
-	background-color: #41d8f5;
+	background-color: rgb(243, 18, 186);
 }
 
 /*E page of home*/

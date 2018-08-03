@@ -8,7 +8,7 @@ var checked = function () {
 		$(".sun_icon").css("color", "rgb(243, 226, 2)");
 		$(".fa-moon").css("color", "rgb(148, 148, 147)");
 	} else {
-		$('.T_').css("background", "rgb(255, 255, 255)");
+		$('.T_').css("background", "rgb(6, 15, 25)");
 		$('head').append('<style class ="toggle_s" type="text/css"> label:after{background:#222}; </style>');
 		$(".toggle").remove();
 		$(".sun_icon").css("color", "rgb(84, 88, 77)")
