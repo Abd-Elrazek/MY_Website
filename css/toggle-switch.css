@@ -11,7 +11,7 @@ label {
 	height: 30px;
 	background: grey;
 	display: block;
-	margin-top: 9px;
+	margin-top: 5px;
 	border-radius: 100px;
 	position: relative;
 
@@ -49,12 +49,12 @@ label:active:after {
 .sun_icon {
 	margin-left: 20px;
 	margin-right: 31px;
-	margin-top: 9px;
+	margin-top: 4px;
 }
 
 
 .fa-moon {
 	margin-left: 12px;
 	margin-right: 16px;
-	margin-top: 9px;
+	margin-top: 4px;
 }
