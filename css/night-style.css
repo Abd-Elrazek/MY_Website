@@ -215,13 +215,17 @@ body {
 }
 
 .card-services .hire_me .btn-group-lg > .btn:hover {
-	color: #41d8f5;
+	border-color: none;
 }
 
 .btn-default {
 	color: #f5fffa;
 	background-color: #1a2531;
 	border-color: #0a0a0a;
+}
+
+.btn-default:hover {
+	border-color: none;
 }
 
 .btn-default:hover {
