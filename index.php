@@ -17,10 +17,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
 	<link rel="stylesheet" href="css/jBox/jBox.css">
-
-	<link rel="stylesheet" href="css/main-style.css" />
-	<!--	<link rel="stylesheet" href="css/sun-style.css" />-->
-	<link rel="stylesheet" href="css/night-style.css" />
+	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/query_requesting.css" />
 	<link rel="stylesheet" href="css/toggle-switch.css" />
 
@@ -34,6 +31,7 @@
 </head>
 
 <body>
+
 	<nav id="navbar" class="navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
