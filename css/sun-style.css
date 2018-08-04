@@ -32,6 +32,7 @@ body {
 .navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav li a:focus {
 	color: #fff;
+	transition: all 1s ease-in-out;
 }
 
 

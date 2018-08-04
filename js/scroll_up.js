@@ -37,7 +37,7 @@ menuItems.click(function (e) {
 		offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
 	$('html, body').stop().animate({
 		scrollTop: offsetTop
-	}, 850);
+	}, 700);
 	e.preventDefault();
 });
 

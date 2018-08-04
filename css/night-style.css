@@ -29,13 +29,10 @@ body {
 	border-right: 2px solid #000000;
 }
 
-.navbar-default .navbar-nav li a {
-	color: #fff;
-}
-
+.navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav li a:focus {
 	color: #fff;
-	background-color: #f9f9f9;
+	transition: all 1s ease-in-out;
 }
 
 .navbar-default .navbar-nav li a:hover {
@@ -46,7 +43,7 @@ body {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active a:focus {
-	background-color: #213e5f;
+	background-color: #9d08a7;
 	color: #fff;
 }
 
@@ -177,6 +174,10 @@ body {
 .skills ul > li em::-moz-selection {
 	color: #f0ff13;
 	background-color: #1a3450;
+}
+
+textarea:focus {
+	border-color: #2187e7;
 }
 
 /*Start of year-experienced*/
