@@ -49,7 +49,7 @@
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav list_right">
+				<ul id="mainNav" class="nav navbar-nav list_right">
 					<li class="active"><a class="h" href="#home">Home <span class="sr-only">(current)</span></a></li>
 					<li><a class="h" href="#skills">Skills</a></li>
 					<li><a class="h" href="#services">Services</a></li>

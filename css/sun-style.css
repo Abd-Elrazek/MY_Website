@@ -29,19 +29,18 @@ body {
 	border-right: 2px solid #1a8a8f;
 }
 
-.navbar-default .navbar-nav li a {
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav li a:focus {
 	color: #fff;
 }
 
-.navbar-default .navbar-nav li a:focus {
-	color: #1976D2;
-	background-color: #f9f9f9;
-}
 
 .navbar-default .navbar-nav li a:hover {
 	color: #1976D2;
 	border-bottom: solid 2px #1976D2;
 }
+
+/*--------------------------------------------------------*/
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -49,6 +48,8 @@ body {
 	background-color: #f900ff;
 	color: #fff;
 }
+
+/*--------------------------------------------------------*/
 
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #1976D2;
