@@ -32,6 +32,22 @@
 
 <body>
 
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="loader">
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="lading"></div>
+		</div>
+	</div><!-- /#preloader -->
+	<!-- Preloader End-->
+
 	<nav id="navbar" class="navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -370,6 +386,7 @@
 		<script src="js/main.js"></script>
 		<script src="js/toggle-switch.js"></script>
 		<script src="js/scroll_up.js"></script>
+		<script src="js/loader.js"></script>
 </body>
 
 </html>

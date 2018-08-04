@@ -9,3 +9,7 @@ $('[data-toggle="tooltip"]').tooltip({
 	placement: 'top',
 	html: true
 });
+
+/*scrollbar*/
+
+/*scrollbar*/

@@ -3,6 +3,22 @@ body {
 	background-color: white;
 }
 
+/*Custtom scrollbar run only on webkit browser such as chrome and saf*/
+
+body::-webkit-scrollbar {
+	width: 0.91eem;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #41D8F5;
+	outline: 1px solid slategrey;
+}
+
+
 /*Navbar header*/
 
 .navbar {
@@ -66,9 +82,6 @@ body {
 	transition: all 1s ease-in-out;
 }
 
-.main_switch label {
-	background-color: rgb(148, 148, 147);
-}
 
 .T_ {
 	background: rgb(148, 148, 147) !important;

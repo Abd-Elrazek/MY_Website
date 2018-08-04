@@ -3,6 +3,22 @@ body {
 	background-color: #1a2531c9;
 }
 
+/*Custtom scrollbar run only on webkit browser such as chrome and safari and opera*/
+
+body::-webkit-scrollbar {
+	width: 0.91eem;
+}
+
+body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(6, 15, 25, 0.9);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #222222;
+	outline: 1px solid slategrey;
+}
+
+
 /*Navbar header*/
 
 .navbar {
