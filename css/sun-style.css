@@ -32,6 +32,9 @@ body {
 .navbar-default .navbar-nav li a,
 .navbar-default .navbar-nav li a:focus {
 	color: #fff;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }
 
@@ -41,7 +44,6 @@ body {
 	border-bottom: solid 2px #1976D2;
 }
 
-/*--------------------------------------------------------*/
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -50,11 +52,19 @@ body {
 	color: #fff;
 }
 
-/*--------------------------------------------------------*/
 
 .navbar-default .navbar-nav > .active > a:hover {
 	color: #1976D2;
 }
+
+.main_switch i {
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+/*----------*/
 
 .card {
 	background: url("../images/white.jpg");
