@@ -674,17 +674,25 @@ span.el_info_f {
 }
 
 .recapatcha-google {
-	margin-top: 35px;
-	margin-bottom: 35px;
-	margin-right: 15px;
-	margin-left: 15px;
-	height: 20px;
-	border: blue 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    margin-top: 23px;
+    margin-bottom: 13px;
+}
+
+.alert-message{
+	margin-top: 3px;
+    margin-bottom: 10px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 21.5em;
 }
 
 .card-contact .send {
-	margin-left: 130px;
-	margin-right: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21.5em;
 }
 
 .card-contact .btn-send {

@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<?php include 'assests/contact.php' ?>
 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -247,39 +248,62 @@
 			<i class="fas fa-envelope-square fa-2x"></i>
 			<h2>Contact Me</h2>
 		</div>
-		<form>
+		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
 			<div class="row">
 
 				<div class="col-sm-6 col-xs-12">
 					<div class="input-group name">
 						<span class="input-group-addon" id="basic-addon1">N</span>
-						<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
+						<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name = "user" value = "<?php if (isset($user)) {echo $user;} ?>"/>
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-xs-12">
 					<div class="input-group phone">
 						<span class="input-group-addon" id="basic-addon1">P</span>
-						<input type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1">
+						<input type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1" name = "phoneN" value="<?php if (isset($phone)) {echo $phone;} ?>" />
 					</div>
 				</div>
 
 				<div class="col-xs-12">
 					<div class="input-group user">
 						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+						<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" name = "mail" value = "<?php if (isset($mail)) {echo $mail;} ?>"/>
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="message">
-						<textarea placeholder="Message" aria-describedby="basic-addon1"> </textarea>
+						<textarea required="required"  placeholder= "Message"  name="message" value="<?php if (isset($msg)) {echo $msg;} ?>"> </textarea>
 					</div>
 				</div>
-
-				<!--S recapatcha-google-->
+                  
 				<div class="col-xs-12">
+				<!-- alert message here -->
+				<?php if (! empty($formErrors)){ ?>
+
+                <div class=" alert-message  alert alert-danger alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <?php  foreach ($formErrors as $Error){
+                    echo $Error . "<br/>"; 
+                    }
+                    ?>
+                </div>
+                <?php  } ?>
+                <?php if (isset($sRecaptcha) and !$sRecaptcha){?>
+                  <div class=' alert-message alert custom alert-danger alert-dismissible' role='alert'>
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        
+                    </button> Fail Recaptcha <i class='fa fa-exclamation-triangle' fa-2x> </i>
+                   </div>
+                  <?php }?>
+				<!--S recapatcha-google-->
+				
 					<div class="recapatcha-google">
-						recapatcha-google
+			<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-"></div>
 					</div>
 				</div>
 				<!--E recapatcha-google-->
@@ -287,9 +311,18 @@
 				<div class="col-xs-12">
 					<div class="send">
 						<div class="input-group btn-send">
-							<input type="submit" class="form-control" value="Send" aria-describedby="basic-addon1">
+							<input type="submit" class="form-control" name = "send" value="Send" aria-describedby="basic-addon1">
 						</div>
 					</div>
+					
+					<!-- alert message success sent -->
+					<div id="ok" class='alert-message alert custom alert-success alert-dismissible' style="display:none" role='alert'>
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+                        <span aria-hidden='true'>&times;</span>
+                        
+                    </button> Message sent successfully <i class='fa fa-check-circle' fa-2x> </i>
+                </div>
+				
 				</div>
 			</div>
 		</form>
@@ -377,9 +410,24 @@
 			<!--E Footer-->
 		</div>
 
+		<!-- Empty Fields and show success message -->
+     <?php 
+    if (isset($successM)){
+        if ($successM){
+            echo '<script>
+             document.getElementById("ok").style.display = "block";
+             document.getElementById("user").value = "";
+             document.getElementById("mail").value = "";
+             document.getElementById("phone").value = "";
+             document.getElementById("message").value = "";
+            </script>';
+        }
+    }
+    ?>
 
 		<!-- basic js load..... -->
 		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<script src="js/jBox/jBox.min.min.js"></script>
 		<script src="js/tooltips.js"></script>
 		<script src="js/bootstrap.min.js "></script>
