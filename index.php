@@ -273,7 +273,7 @@
 				</div>
 				<div class="col-xs-12">
 					<div class="message">
-						<textarea name="message" id="message_send" required="required" placeholder="Message"> </textarea>
+						<textarea  id="message_send" required="required" placeholder="Message"> </textarea>
 					</div>
 				</div>
 
