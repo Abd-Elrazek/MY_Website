@@ -40,14 +40,18 @@ $(document).ready(function () {
 				$('#msg_place').html("Message Sent Successfully");
 				$('#msg_place').show();
 			} else {
-				var message = response.replace("Array[", "");
+				var message = response.replace("[", "");
 				message = message.replace(",", "<br>");
 				message = message.replace(",", "<br>");
 				message = message.replace("]", "");
 				message = message.replace("3", "<strong> 3 </strong>")
-				message = message.replace("Number", "<strong> Number </strong>")
-				message = message.replace("15", "<strong> 15 </strong>")
-				$('#msg_place').css("display", "block");
+				message = message.replace("Number", "<strong> Number </strong>");
+				message = message.replace("15", "<strong> 15 </strong>");
+				$('#msg_place').css({
+					"background-color": "rgba(240, 17, 17, 0.46)",
+					"color": "white",
+					"border-color": "white"
+				});
 				$('#msg_place').html(message);
 				$('#msg_place').show();
 			}

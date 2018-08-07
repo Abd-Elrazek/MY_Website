@@ -260,7 +260,7 @@
 
 				<div class="col-sm-6 col-xs-12">
 					<div class="input-group phone">
-						<span class="input-group-addon" id="basic-addon1">P</span>
+						<span class="input-group-addon" id="basic-addon1">PH</span>
 						<input id="phone_send" type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1" name="phoneN" />
 					</div>
 				</div>
@@ -278,21 +278,12 @@
 				</div>
 
 				<div class="col-xs-12">
-					<!-- alert message here -->
-
-					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-					</div>
-
 					<!--S recapatcha-google-->
-
 					<div class="recapatcha-google">
 						<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-"></div>
 					</div>
-				</div>
 				<!--E recapatcha-google-->
+				</div>
 
 				<div class="col-xs-12">
 					<div class="send">
@@ -300,7 +291,13 @@
 							<button id="btn_send" type="button" class="form-control" aria-describedby="basic-addon1"> Send </button>
 						</div>
 					</div>
-
+                    <!-- alert message here -->
+					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+					</div>
+					
 				</div>
 			</div>
 		</form>
