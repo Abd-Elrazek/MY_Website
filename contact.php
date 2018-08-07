@@ -4,7 +4,7 @@
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
         
       $user = filter_var($_POST['user'], FILTER_SANITIZE_STRING);
-      $mail = filter_var($_POST['mail'], FILTER_SANITIZE_EMAIL);
+      $mail = filter_var($_POST['mails'], FILTER_SANITIZE_EMAIL);
       $phone = filter_var($_POST['phoneN'], FILTER_SANITIZE_NUMBER_INT);
       $msg = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
       $sRecaptcha =false;
@@ -35,9 +35,9 @@
         if (strlen("$msg") <= 15){
           $formErrors[] = "message not allow char less than 15"; 
           }
-     $header = " From " . $mail . " \r\n";
+     $header = " From " .$mail. " \r\n";
         if (empty($formErrors)){
-           $successM =  mail("abdelrazek.n4@gmail.com", "Contact Me", $msg . " \n Number Phone : " . $phone, $header);
+           $successM =  mail("abdelrazek.n4@gmail.com", "My Website", "Name : ".$user."\n From : ".$mail." \n Number Phone : " . $phone."\n Message : \n".$msg , $header);
 		   echo 1;
         }else{
 			echo json_encode($formErrors);

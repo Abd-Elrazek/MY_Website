@@ -268,7 +268,7 @@
 				<div class="col-xs-12">
 					<div class="input-group user">
 						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input name="mail" id="mail_send" type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" />
+						<input  id="mail_send" type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" />
 					</div>
 				</div>
 				<div class="col-xs-12">
@@ -293,8 +293,8 @@
 					</div>
                     <!-- alert message here -->
 					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">
-						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+	                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">×</span>
                     </button>
 					</div>
 					

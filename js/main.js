@@ -23,7 +23,7 @@ $(document).ready(function () {
 			data: {
 				user: $("#user_send").val(),
 				phoneN: $("#phone_send").val(),
-				mail: $("#mail_send").val(),
+				mails: $("#mail_send").val(),
 				message: $("#message_send").val()
 			}
 		}).done(function (response) {
@@ -39,6 +39,9 @@ $(document).ready(function () {
 				});
 				$('#msg_place').html("Message Sent Successfully");
 				$('#msg_place').show();
+				$("#msg_place").fadeOut(8000, function (){
+					$(this).css("display","none");
+				});
 			} else {
 				var message = response.replace("[", "");
 				message = message.replace(",", "<br>");
