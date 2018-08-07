@@ -3,16 +3,14 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-    -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 /* Navbar header*/
-
-
 
 .navbar {
 	margin-bottom: 0;
@@ -74,7 +72,7 @@ body {
 	overflow-y: hidden;
 	overflow-x: hidden;
 	box-shadow: rgba(99, 97, 97, 0.89) 0px 0px 0px 0px, rgba(64, 62, 63, 0.09) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 0px 4px 2px;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -157,7 +155,7 @@ span.el_info_f {
 	font-size: 20px;
 	/*	border-radius: 15% 15% 15% 15%;*/
 	cursor: context-menu;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -550,7 +548,7 @@ span.el_info_f {
 	font-family: 'Mystery Quest', cursive;
 	font-weight: bolder;
 	cursor: default;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -559,7 +557,7 @@ span.el_info_f {
 .card-services {
 	padding-top: 40px;
 	padding-bottom: 47px;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -598,7 +596,7 @@ span.el_info_f {
 .card-contact {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -674,25 +672,26 @@ span.el_info_f {
 }
 
 .recapatcha-google {
-    margin-left: auto;
-    margin-right: auto;
-    width: 22em;
-    margin-top: 23px;
-    margin-bottom: 13px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 22em;
+	margin-top: 23px;
+	margin-bottom: 13px;
 }
 
-.alert-message{
+.alert-message {
+	display: none;
 	margin-top: 3px;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 	margin-left: auto;
-    margin-right: auto;
-    width: 21.5em;
+	margin-right: auto;
+	width: 21.5em;
 }
 
 .card-contact .send {
-    margin-left: auto;
-    margin-right: auto;
-    width: 21.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 21.5em;
 }
 
 .card-contact .btn-send {
@@ -707,7 +706,7 @@ span.el_info_f {
 .card-about {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	  -webkit-transition: all 0.4s ease-out;
+	-webkit-transition: all 0.4s ease-out;
 	-moz-transition: all 0.4s ease-out;
 	-o-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
@@ -806,7 +805,8 @@ span.el_info_f {
 /*E page of About*/
 
 /*preloader*/
-#preloader{
+
+#preloader {
 	position: fixed;
 	width: 100%;
 	background: rgb(16, 16, 16);
@@ -814,9 +814,10 @@ span.el_info_f {
 	z-index: 99999999999;
 
 }
+
 #loader {
- 	position: absolute;
- 	top: 0;
+	position: absolute;
+	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -846,133 +847,149 @@ span.el_info_f {
 	height: 87.5px;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
-	   -moz-transform: scale(0);
-	    -ms-transform: scale(0);
-	     -o-transform: scale(0);
-	        transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
 }
 
 #loader .dot:nth-child(7n+1) {
 	-webkit-transform: rotate(45deg);
-	   -moz-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	     -o-transform: rotate(45deg);
-	        transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
+
 #loader .dot:nth-child(7n+1):before {
 	background: #00ff80;
 	-webkit-animation: load 0.8s linear 0.1s infinite;
-	   -moz-animation: load 0.8s linear 0.1s infinite;
-	    -ms-animation: load 0.8s linear 0.1s infinite;
-	     -o-animation: load 0.8s linear 0.1s infinite;
-	        animation: load 0.8s linear 0.1s infinite;
+	-moz-animation: load 0.8s linear 0.1s infinite;
+	-ms-animation: load 0.8s linear 0.1s infinite;
+	-o-animation: load 0.8s linear 0.1s infinite;
+	animation: load 0.8s linear 0.1s infinite;
 }
+
 #loader .dot:nth-child(7n+2) {
 	-webkit-transform: rotate(90deg);
-	   -moz-transform: rotate(90deg);
-	    -ms-transform: rotate(90deg);
-	     -o-transform: rotate(90deg);
-	        transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
+
 #loader .dot:nth-child(7n+2):before {
-background: #00ffea;
+	background: #00ffea;
 	-webkit-animation: load 0.8s linear 0.2s infinite;
-	   -moz-animation: load 0.8s linear 0.2s infinite;
-	    -ms-animation: load 0.8s linear 0.2s infinite;
-	     -o-animation: load 0.8s linear 0.2s infinite;
-	        animation: load 0.8s linear 0.2s infinite;
+	-moz-animation: load 0.8s linear 0.2s infinite;
+	-ms-animation: load 0.8s linear 0.2s infinite;
+	-o-animation: load 0.8s linear 0.2s infinite;
+	animation: load 0.8s linear 0.2s infinite;
 }
+
 #loader .dot:nth-child(7n+3) {
 	-webkit-transform: rotate(135deg);
-	   -moz-transform: rotate(135deg);
-	    -ms-transform: rotate(135deg);
-	     -o-transform: rotate(135deg);
-	        transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
 }
+
 #loader .dot:nth-child(7n+3):before {
-background: #00aaff;
+	background: #00aaff;
 	-webkit-animation: load 0.8s linear 0.3s infinite;
-	   -moz-animation: load 0.8s linear 0.3s infinite;
-	    -ms-animation: load 0.8s linear 0.3s infinite;
-	     -o-animation: load 0.8s linear 0.3s infinite;
-	        animation: load 0.8s linear 0.3s infinite;
+	-moz-animation: load 0.8s linear 0.3s infinite;
+	-ms-animation: load 0.8s linear 0.3s infinite;
+	-o-animation: load 0.8s linear 0.3s infinite;
+	animation: load 0.8s linear 0.3s infinite;
 }
+
 #loader .dot:nth-child(7n+4) {
 	-webkit-transform: rotate(180deg);
-	   -moz-transform: rotate(180deg);
-	    -ms-transform: rotate(180deg);
-	     -o-transform: rotate(180deg);
-	        transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
+
 #loader .dot:nth-child(7n+4):before {
 	background: #0040ff;
 	-webkit-animation: load 0.8s linear 0.4s infinite;
-	   -moz-animation: load 0.8s linear 0.4s infinite;
-	    -ms-animation: load 0.8s linear 0.4s infinite;
-	     -o-animation: load 0.8s linear 0.4s infinite;
-	        animation: load 0.8s linear 0.4s infinite;
+	-moz-animation: load 0.8s linear 0.4s infinite;
+	-ms-animation: load 0.8s linear 0.4s infinite;
+	-o-animation: load 0.8s linear 0.4s infinite;
+	animation: load 0.8s linear 0.4s infinite;
 }
+
 #loader .dot:nth-child(7n+5) {
 	-webkit-transform: rotate(225deg);
-	   -moz-transform: rotate(225deg);
-	    -ms-transform: rotate(225deg);
-	     -o-transform: rotate(225deg);
-	        transform: rotate(225deg);
+	-moz-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	transform: rotate(225deg);
 }
+
 #loader .dot:nth-child(7n+5):before {
 	background: #2a00ff;
 	-webkit-animation: load 0.8s linear 0.5s infinite;
-	   -moz-animation: load 0.8s linear 0.5s infinite;
-	    -ms-animation: load 0.8s linear 0.5s infinite;
-	     -o-animation: load 0.8s linear 0.5s infinite;
-	        animation: load 0.8s linear 0.5s infinite;
+	-moz-animation: load 0.8s linear 0.5s infinite;
+	-ms-animation: load 0.8s linear 0.5s infinite;
+	-o-animation: load 0.8s linear 0.5s infinite;
+	animation: load 0.8s linear 0.5s infinite;
 }
+
 #loader .dot:nth-child(7n+6) {
 	-webkit-transform: rotate(270deg);
-	   -moz-transform: rotate(270deg);
-	    -ms-transform: rotate(270deg);
-	     -o-transform: rotate(270deg);
-	        transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
 }
+
 #loader .dot:nth-child(7n+6):before {
 	background: #9500ff;
 	-webkit-animation: load 0.8s linear 0.6s infinite;
-	   -moz-animation: load 0.8s linear 0.6s infinite;
-	    -ms-animation: load 0.8s linear 0.6s infinite;
-	     -o-animation: load 0.8s linear 0.6s infinite;
-	        animation: load 0.8s linear 0.6s infinite;
+	-moz-animation: load 0.8s linear 0.6s infinite;
+	-ms-animation: load 0.8s linear 0.6s infinite;
+	-o-animation: load 0.8s linear 0.6s infinite;
+	animation: load 0.8s linear 0.6s infinite;
 }
+
 #loader .dot:nth-child(7n+7) {
 	-webkit-transform: rotate(315deg);
-	   -moz-transform: rotate(315deg);
-	    -ms-transform: rotate(315deg);
-	     -o-transform: rotate(315deg);
-	        transform: rotate(315deg);
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	transform: rotate(315deg);
 }
+
 #loader .dot:nth-child(7n+7):before {
 	background: magenta;
 	-webkit-animation: load 0.8s linear 0.7s infinite;
-	   -moz-animation: load 0.8s linear 0.7s infinite;
-	    -ms-animation: load 0.8s linear 0.7s infinite;
-	     -o-animation: load 0.8s linear 0.7s infinite;
-	        animation: load 0.8s linear 0.7s infinite;
+	-moz-animation: load 0.8s linear 0.7s infinite;
+	-ms-animation: load 0.8s linear 0.7s infinite;
+	-o-animation: load 0.8s linear 0.7s infinite;
+	animation: load 0.8s linear 0.7s infinite;
 }
+
 #loader .dot:nth-child(7n+8) {
 	-webkit-transform: rotate(360deg);
-	   -moz-transform: rotate(360deg);
-	    -ms-transform: rotate(360deg);
-	     -o-transform: rotate(360deg);
-	        transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
+
 #loader .dot:nth-child(7n+8):before {
 	background: #ff0095;
 	-webkit-animation: load 0.8s linear 0.8s infinite;
-	   -moz-animation: load 0.8s linear 0.8s infinite;
-	    -ms-animation: load 0.8s linear 0.8s infinite;
-	     -o-animation: load 0.8s linear 0.8s infinite;
-	        animation: load 0.8s linear 0.8s infinite;
+	-moz-animation: load 0.8s linear 0.8s infinite;
+	-ms-animation: load 0.8s linear 0.8s infinite;
+	-o-animation: load 0.8s linear 0.8s infinite;
+	animation: load 0.8s linear 0.8s infinite;
 }
-#loader .lading{
+
+#loader .lading {
 	background-image: url(../images/loading.gif);
 	background-repeat: no-repeat;
 	position: absolute;
@@ -990,24 +1007,28 @@ background: #00aaff;
 		-webkit-transform: scale(1);
 	}
 }
-@-moz-keyframes load  {
+
+@-moz-keyframes load {
 	100% {
 		opacity: 0;
 		-moz-transform: scale(1);
 	}
 }
+
 @-ms-keyframes load {
 	100% {
 		opacity: 0;
 		-ms-transform: scale(1);
 	}
 }
+
 @-o-keyframes load {
 	100% {
 		opacity: 0;
 		-o-transform: scale(1);
 	}
 }
+
 @keyframes load {
 	100% {
 		opacity: 0;
@@ -1017,5 +1038,3 @@ background: #00aaff;
 
 /* 10 - Preloader End
 ---------------------------------------------------------------------- */
-
-

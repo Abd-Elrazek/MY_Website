@@ -1,5 +1,3 @@
-<?php include 'assests/contact.php' ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +31,7 @@
 
 <body>
 
+
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="loader">
@@ -46,7 +45,8 @@
 			<div class="dot"></div>
 			<div class="lading"></div>
 		</div>
-	</div><!-- /#preloader -->
+	</div>
+	<!-- /#preloader -->
 	<!-- Preloader End-->
 
 	<nav id="navbar" class="navbar navbar-default">
@@ -248,62 +248,48 @@
 			<i class="fas fa-envelope-square fa-2x"></i>
 			<h2>Contact Me</h2>
 		</div>
-		<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST">
+		<form>
 			<div class="row">
 
 				<div class="col-sm-6 col-xs-12">
 					<div class="input-group name">
 						<span class="input-group-addon" id="basic-addon1">N</span>
-						<input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name = "user" value = "<?php if (isset($user)) {echo $user;} ?>"/>
+						<input name="user" id="user_send" type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1" name="user" />
 					</div>
 				</div>
 
 				<div class="col-sm-6 col-xs-12">
 					<div class="input-group phone">
 						<span class="input-group-addon" id="basic-addon1">P</span>
-						<input type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1" name = "phoneN" value="<?php if (isset($phone)) {echo $phone;} ?>" />
+						<input id="phone_send" type="text" class="form-control" placeholder="Phone" aria-describedby="basic-addon1" name="phoneN" />
 					</div>
 				</div>
 
 				<div class="col-xs-12">
 					<div class="input-group user">
 						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" name = "mail" value = "<?php if (isset($mail)) {echo $mail;} ?>"/>
+						<input name="mail" id="mail_send" type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" />
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="message">
-						<textarea required="required"  placeholder= "Message"  name="message" value="<?php if (isset($msg)) {echo $msg;} ?>"> </textarea>
+						<textarea name="message" id="message_send" required="required" placeholder="Message"> </textarea>
 					</div>
 				</div>
-                  
-				<div class="col-xs-12">
-				<!-- alert message here -->
-				<?php if (! empty($formErrors)){ ?>
 
-                <div class=" alert-message  alert alert-danger alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<div class="col-xs-12">
+					<!-- alert message here -->
+
+					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+					</div>
 
-                    <?php  foreach ($formErrors as $Error){
-                    echo $Error . "<br/>"; 
-                    }
-                    ?>
-                </div>
-                <?php  } ?>
-                <?php if (isset($sRecaptcha) and !$sRecaptcha){?>
-                  <div class=' alert-message alert custom alert-danger alert-dismissible' role='alert'>
-                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                        <span aria-hidden='true'>&times;</span>
-                        
-                    </button> Fail Recaptcha <i class='fa fa-exclamation-triangle' fa-2x> </i>
-                   </div>
-                  <?php }?>
-				<!--S recapatcha-google-->
-				
+					<!--S recapatcha-google-->
+
 					<div class="recapatcha-google">
-			<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-"></div>
+						<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-"></div>
 					</div>
 				</div>
 				<!--E recapatcha-google-->
@@ -311,18 +297,10 @@
 				<div class="col-xs-12">
 					<div class="send">
 						<div class="input-group btn-send">
-							<input type="submit" class="form-control" name = "send" value="Send" aria-describedby="basic-addon1">
+							<button id="btn_send" type="button" class="form-control" aria-describedby="basic-addon1"> Send </button>
 						</div>
 					</div>
-					
-					<!-- alert message success sent -->
-					<div id="ok" class='alert-message alert custom alert-success alert-dismissible' style="display:none" role='alert'>
-                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
-                        <span aria-hidden='true'>&times;</span>
-                        
-                    </button> Message sent successfully <i class='fa fa-check-circle' fa-2x> </i>
-                </div>
-				
+
 				</div>
 			</div>
 		</form>
@@ -411,19 +389,7 @@
 		</div>
 
 		<!-- Empty Fields and show success message -->
-     <?php 
-    if (isset($successM)){
-        if ($successM){
-            echo '<script>
-             document.getElementById("ok").style.display = "block";
-             document.getElementById("user").value = "";
-             document.getElementById("mail").value = "";
-             document.getElementById("phone").value = "";
-             document.getElementById("message").value = "";
-            </script>';
-        }
-    }
-    ?>
+
 
 		<!-- basic js load..... -->
 		<script src="js/jquery-3.2.1.min.js"></script>
