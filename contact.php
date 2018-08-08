@@ -7,36 +7,40 @@
       $mail = filter_var($_POST['mails'], FILTER_SANITIZE_EMAIL);
       $phone = filter_var($_POST['phoneN'], FILTER_SANITIZE_NUMBER_INT);
       $msg = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+	  $recapcha_response = $_POST['recapacha'];
       $sRecaptcha =false;
-
-		
-       $formErrors = array();
-      if (strlen("$user") <= 3){
-          $formErrors[] = "User name not allow char less than 3"; 
-          
-          }else {
-          
-      }
+	  
+	    // start recaptcha 
+        $url = "https://www.google.com/recaptcha/api/siteverify";
+        $privatekey = "6LcsKUgUAAAAANlyJF6gita2TcpnFi0PfrcuO55z";
+        $response = file_get_contents($url."?secret=".$privatekey."&response=".$recapcha_response);
+        $data = json_decode($response);
+        if (isset($data -> success) AND $data -> success == true){
+            $sRecaptcha = true;
         
+        }
+        // end recaptcha
+
+		// Error in inputs fields
+       $formErrors = array();
+        if (strlen("$user") <= 3){
+          $formErrors[] = "User name not allow char less than 3"; 
+          }
         // Validation Number not String and not less than 11
         if (!is_numeric($phone)){
              $formErrors[] = " - phone  should be  Number "; 
-             
         }else{
             if (strlen("$phone") != 11 ){
-                $formErrors[] = "You should to tpye only 11 Number ...";
-                
-            }else{
-                
+                $formErrors[] = "You should to tpye only 11 Number ...";               
             }
         }
-               
-        
         if (strlen("$msg") <= 15){
           $formErrors[] = "message not allow char less than 15"; 
           }
+		  // End Error
+		  
      $header = " From " .$mail. " \r\n";
-        if (empty($formErrors)){
+        if (empty($formErrors) && isset($sRecaptcha) && $sRecaptcha){
            $successM =  mail("abdelrazek.n4@gmail.com", "My Website", "Name : ".$user."\n From : ".$mail." \n Number Phone : " . $phone."\n Message : \n".$msg , $header);
 		   echo 1;
         }else{
