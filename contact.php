@@ -17,7 +17,6 @@
         $data = json_decode($response);
         if (isset($data -> success) AND $data -> success == true){
             $sRecaptcha = true;
-        
         }
         // end recaptcha
 
@@ -27,21 +26,24 @@
           $formErrors[] = "User name not allow char less than 3"; 
           }
         // Validation Number not String and not less than 11
-        if (!is_numeric($phone)){
-             $formErrors[] = " - phone  should be  Number "; 
-        }else{
-            if (strlen("$phone") != 11 ){
-                $formErrors[] = "You should to tpye only 11 Number ...";               
-            }
-        }
         if (strlen("$msg") <= 15){
           $formErrors[] = "message not allow char less than 15"; 
+          }
+		          if (!is_numeric($phone)){
+             $formErrors[] = " - phone  should be  Number "; 
+        }else{
+            if (strlen("$phone") > 16 ){
+                $formErrors[] = "Phone should less than 16 Number ...";               
+            }
+        }
+		if (!$sRecaptcha){
+          $formErrors[] = "Fail Recaptcha.."; 
           }
 		  // End Error
 		  
      $header = " From " .$mail. " \r\n";
-        if (empty($formErrors) && isset($sRecaptcha) && $sRecaptcha){
-           $successM =  mail("abdelrazek.n4@gmail.com", "My Website", "Name : ".$user."\n From : ".$mail." \n Number Phone : " . $phone."\n Message : \n".$msg , $header);
+        if (empty($formErrors)){
+           $successM =  mail("abdelrazek.n4@gmail.com", "My Website", "Name : ".$user."\n Mail : ".$mail." \n Number Phone : " . $phone."\n Message : \n".$msg , $header);
 		   echo 1;
         }else{
 			echo json_encode($formErrors);

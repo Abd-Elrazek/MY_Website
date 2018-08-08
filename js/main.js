@@ -1,6 +1,5 @@
 /* global */
 // variables 
-
 $('[data-toggle="tip"]').tooltip({
 	animated: 'fade',
 	placement: 'top',
@@ -50,7 +49,7 @@ $(document).ready(function () {
 				message = message.replace("]", "");
 				message = message.replace("3", "<strong> 3 </strong>")
 				message = message.replace("Number", "<strong> Number </strong>");
-				message = message.replace("15", "<strong> 15 </strong>");
+				message = message.replace("16", "<strong> 16 </strong>");
 				$('#msg_place').css({
 					"background-color": "rgba(240, 17, 17, 0.46)",
 					"color": "white",
