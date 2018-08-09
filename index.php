@@ -30,8 +30,6 @@
 </head>
 
 <body>
-
-
 	<!-- Preloader -->
 	<div id="preloader">
 		<div id="loader">
@@ -290,6 +288,10 @@
 						<div class="input-group btn-send">
 							<button id="btn_send" type="button" class="form-control" aria-describedby="basic-addon1"> Send </button>
 						</div>
+					</div>
+					<div class="image-loading">
+						<img src="images/load1.gif" alt="loading..." title="loading...." />
+						<h3 class="text-center">Sending...</h3>
 					</div>
 					<!-- alert message here -->
 					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">

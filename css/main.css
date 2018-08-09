@@ -681,7 +681,7 @@ span.el_info_f {
 
 .alert-message {
 	display: none;
-	margin-top: 3px;
+	margin-top: 45px;
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -695,9 +695,33 @@ span.el_info_f {
 }
 
 .card-contact .btn-send {
+	display: inline;
 	width: 100%;
 }
 
+.image-loading {
+	background: #41d8f54f;
+	position: fixed;
+	display: none;
+	z-index: 200;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.image-loading img {
+	justify-content: center;
+	top: 50%;
+	display: flex;
+	margin: auto;
+	margin-top: 212px;
+}
+
+.image-loading h3 {
+	color: #333;
+	margin-top: -53px;
+}
 
 /*End page of Contact Me*/
 

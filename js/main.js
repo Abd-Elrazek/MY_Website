@@ -27,6 +27,13 @@ $(document).ready(function () {
 				recapacha: grecaptcha.getResponse()
 			}
 		}).done(function (response) {
+			setTimeout(function () {
+				$('.image-loading h3').fadeOut();
+				$('.image-loading').fadeOut();
+			});
+
+
+
 			if (response == 1) {
 				$('#contact-form')[0].reset();
 				grecaptcha.reset();
@@ -61,6 +68,8 @@ $(document).ready(function () {
 	}
 
 	$("#btn_send").click(function () {
+		$('.image-loading').fadeIn();
+		$('.image-loading h3').fadeIn();
 		ajax_send();
 	});
 
