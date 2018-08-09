@@ -700,7 +700,6 @@ span.el_info_f {
 }
 
 .image-loading {
-	background: #41d8f54f;
 	position: fixed;
 	display: none;
 	z-index: 200;

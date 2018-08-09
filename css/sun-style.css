@@ -376,6 +376,10 @@ body::-webkit-scrollbar-thumb {
 	border-top-color: #00baf5;
 }
 
+.image-loading {
+	background: #41d8f54f;
+}
+
 /* S footer */
 
 .footer {

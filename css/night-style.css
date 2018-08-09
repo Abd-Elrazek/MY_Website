@@ -386,6 +386,15 @@ mark {
 	border-top-color: #00baf5;
 }
 
+.image-loading {
+	background: #fefefecc;
+}
+
+.rc-anchor-light {
+	background: #121023;
+	color: #ff4d85;
+}
+
 /* S footer */
 
 .footer {

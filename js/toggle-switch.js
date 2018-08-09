@@ -17,7 +17,6 @@ var checked = function () {
 		$(".toggle").remove();
 		$(".sun_icon").css("color", "rgb(84, 88, 77)")
 		$(".fa-moon").css("color", "rgb(247, 247, 243)");
-
 	}
 
 };
