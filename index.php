@@ -248,7 +248,7 @@
 			<i class="fas fa-envelope-square fa-2x"></i>
 			<h2>Contact Me</h2>
 		</div>
-		<form>
+		<form id="contact-form">
 			<div class="row">
 
 				<div class="col-sm-6 col-xs-12">
@@ -268,12 +268,12 @@
 				<div class="col-xs-12">
 					<div class="input-group user">
 						<span class="input-group-addon" id="basic-addon1">@</span>
-						<input  id="mail_send" type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" />
+						<input id="mail_send" type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" />
 					</div>
 				</div>
 				<div class="col-xs-12">
 					<div class="message">
-						<textarea  id="message_send" required="required" placeholder="Message"> </textarea>
+						<textarea id="message_send" required="required" placeholder="Message"> </textarea>
 					</div>
 				</div>
 
@@ -282,7 +282,7 @@
 					<div class="recapatcha-google">
 						<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-"></div>
 					</div>
-				<!--E recapatcha-google-->
+					<!--E recapatcha-google-->
 				</div>
 
 				<div class="col-xs-12">
@@ -291,13 +291,13 @@
 							<button id="btn_send" type="button" class="form-control" aria-describedby="basic-addon1"> Send </button>
 						</div>
 					</div>
-                    <!-- alert message here -->
+					<!-- alert message here -->
 					<div id="msg_place" class="text-center alert-message  alert alert-danger alert-dismissible" role="alert">
-	                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
 					</div>
-					
+
 				</div>
 			</div>
 		</form>

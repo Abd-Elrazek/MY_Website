@@ -12,10 +12,10 @@ $('[data-toggle="tooltip"]').tooltip({
 	html: true
 });
 ////////////////////////////////
-// ajax send 
+
 $(document).ready(function () {
-	$("#btn_send").click(function () {
-		// write ajax
+	// Function Ajax
+	var ajax_send = function () {
 		jQuery.ajax({
 			type: "POST",
 			url: "contact.php",
@@ -28,10 +28,8 @@ $(document).ready(function () {
 			}
 		}).done(function (response) {
 			if (response == 1) {
-				$('#mail_send').val('');
-				$('#user_send').val('');
-				$('#phone_send').val('');
-				$('#message_send').val('');
+				$('#contact-form')[0].reset();
+				grecaptcha.reset();
 				$('#msg_place').css({
 					"background-color": "#55767d80",
 					"color": "white",
@@ -39,11 +37,12 @@ $(document).ready(function () {
 				});
 				$('#msg_place').html("Message Sent Successfully");
 				$('#msg_place').show();
-				$("#msg_place").fadeOut(8000, function (){
-					$(this).css("display","none");
+				$("#msg_place").fadeOut(8000, function () {
+					$(this).css("display", "none");
 				});
 			} else {
 				var message = response.replace("[", "");
+				message = message.replace(",", "<br>");
 				message = message.replace(",", "<br>");
 				message = message.replace(",", "<br>");
 				message = message.replace("]", "");
@@ -59,8 +58,10 @@ $(document).ready(function () {
 				$('#msg_place').show();
 			}
 		}); // end ajax
+	}
 
-
+	$("#btn_send").click(function () {
+		ajax_send();
 	});
 
 });

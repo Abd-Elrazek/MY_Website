@@ -1,5 +1,5 @@
 /* global  , document, $ ,jBox*/
-
+// this file for tool-tips, Notice, Model ajax
 $(document).ready(function () {
 	'use strict'
 	new jBox("Tooltip", {
@@ -27,7 +27,7 @@ function notehire() {
 		stack: false,
 		animation: {
 			open: "tada",
-			close: "zoomIn"
+			close: "zoomOut"
 		},
 		title: "&diams; Hi &diams;",
 		content: "&#8220; You can send me message &#8221;"
