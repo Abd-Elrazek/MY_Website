@@ -14,7 +14,7 @@
       $phone = filter_var($_POST['phoneN'], FILTER_SANITIZE_NUMBER_INT);
       $msg = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 	  $recapcha_response = $_POST['recapacha'];
-      $sRecaptcha =false;
+      $sRecaptcha = false;
 	  
 	  $body_msg = "
 	  <center>
@@ -50,15 +50,13 @@
        </center>
 	  ";
 	  
-	   // start recaptcha 
-	  $url = "https://www.google.com/recaptcha/api/siteverify";
-	  $privatekey = "6LcsKUgUAAAAANlyJF6gita2TcpnFi0PfrcuO55z";
-	  $response = file_get_contents($url."?secret=".$privatekey."&response=".$recapcha_response);
-	  $data = json_decode($response);
-	  if (isset($data -> success) AND $data -> success == true)
-	  {
-		$sRecaptcha = true;
-	  }
+	    $url = "https://www.google.com/recaptcha/api/siteverify"; // abdallah :: 6Lf7gWkUAAAAAMSWMDOlIeRd3KSVVI6VdzNZVH0T
+        $privatekey = "6Lf7gWkUAAAAAMSWMDOlIeRd3KSVVI6VdzNZVH0T";// dx::  6LcsKUgUAAAAANlyJF6gita2TcpnFi0PfrcuO55z
+        $response = file_get_contents($url."?secret=".$privatekey."&response=".$recapcha_response);
+        $data = json_decode($response);
+        if (isset($data -> success) AND $data -> success == true){
+            $sRecaptcha = true;
+        }
 	 
 
 	 // Error in inputs fields
