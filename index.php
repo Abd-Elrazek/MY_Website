@@ -367,6 +367,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<!--S Footer-->
 		<div class="footer">
 			<div class="icon-social-list">
@@ -385,6 +386,7 @@
 				</p>
 			</div>
 			<!--E Footer-->
+		</div>
 		</div>
 
 		<!-- Empty Fields and show success message -->
