@@ -1,6 +1,7 @@
 /* global  , document, $ */
 var n = document.getElementById("switch");
 var checked = function () {
+	"use strict"
 	if (n.checked) {
 		$('.T_').css("background", "rgb(148, 148, 147);"); // T_ class for label for chechbox
 		$('head').append('<link class = "sun_mode" rel="stylesheet" href="css/sun-style.css" />');
