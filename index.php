@@ -277,8 +277,8 @@
 
 				<div class="col-xs-12">
 					<!--S recapatcha-google-->
-					<div class="recapatcha-google">  <!-- abdallahnageh.000webhostapp.com :: "6Lf7gWkUAAAAALgvxih07piQVa-fmu47QemcwHKR"-->
-						<div class="g-recaptcha" data-sitekey="6LcsKUgUAAAAAPRlyrIpn2_FRQK_EEDGsuj8LAM-" theme="dark"></div>
+					<div class="recapatcha-google">  
+						<div class="g-recaptcha" data-sitekey="6LfyLWkUAAAAABlFJKkATgdzOwFfUwJ1ffoT4gld" theme="dark"></div>
 					</div>
 					<!--E recapatcha-google-->
 				</div>

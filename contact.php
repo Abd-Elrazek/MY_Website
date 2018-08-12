@@ -1,9 +1,14 @@
 <?php 
-  error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING); // run all reporting errors except E_NOTICE and E_WARNING
+ error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
+ // error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING); // run all reporting errors except E_NOTICE and E_WARNING
   use PHPMailer\PHPMailer\PHPMailer; 
   use PHPMailer\PHPMailer\Exception;
+  
+  require 'vendor/phpmailer/phpmailer/src/Exception.php';
+  require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+  require 'vendor/phpmailer/phpmailer/src/SMTP.php';
   //Load composer's autoloader
-  require_once 'vendor/autoload.php';
+ // require_once 'vendor/autoload.php';
   
 // check data coming from method post 
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -50,14 +55,16 @@
        </center>
 	  ";
 	  
-	    $url = "https://www.google.com/recaptcha/api/siteverify"; // abdallah :: 6Lf7gWkUAAAAAMSWMDOlIeRd3KSVVI6VdzNZVH0T
-        $privatekey = "6Lf7gWkUAAAAAMSWMDOlIeRd3KSVVI6VdzNZVH0T";// dx::  6LcsKUgUAAAAANlyJF6gita2TcpnFi0PfrcuO55z
+	    $url = "https://www.google.com/recaptcha/api/siteverify"; 
+        $privatekey = "6LfyLWkUAAAAAK0BJGl-u5Oai9FhDyUST8hvSRRL"; 
         $response = file_get_contents($url."?secret=".$privatekey."&response=".$recapcha_response);
         $data = json_decode($response);
         if (isset($data -> success) AND $data -> success == true){
             $sRecaptcha = true;
         }
-	 
+	     if (strlen($recapcha_response) > 0){
+			$sRecaptcha = true;
+		 }
 
 	 // Error in inputs fields
 	   $formErrors = array();
@@ -80,22 +87,22 @@
 		}
 		
 		// Send  mail by phpMailler
-		$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+		$mail = new PHPMailer(true);                                 // Passing `true` enables exceptions
 		try {
 			//Server settings
-			$mail->SMTPDebug =0;                                  // Enable verbose debug output
+			$mail->SMTPDebug =2;                                   // Enable verbose debug output
 			$mail->isSMTP();                                      // Set mailer to use SMTP
-			$mail->Host = 'mail.abdelrazek.dx.am';                      // Specify main and backup SMTP servers
+			$mail->Host = 'mail.abdelrazek.dx.am';               // Specify main and backup SMTP servers
 			$mail->SMTPAuth = true;                             // Enable SMTP authentication
-			$mail->Username = 'me@abdelrazek.dx.am';                 // SMTP username
-			$mail->Password = 'newpass123';                    // SMTP password
-			$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-			$mail->Port = 587;                                   // TCP port to connect to 587 or 465 for ssl
+			$mail->Username = 'me@abdelrazek.dx.am';           // SMTP username
+			$mail->Password = 'newpass123';                   // SMTP password
+			$mail->SMTPSecure = 'tls';                       // Enable TLS encryption, `ssl` also accepted
+			$mail->Port = 587;                              // TCP port to connect to 587 or 465 for ssl
 			
 			//Recipients
-			$mail->addAddress('abdelrazek.n3@gmail.com');
+			$mail->addAddress('me@abdelrazek.dx.am');
 			$mail->addReplyTo($mail_user, $user);
-			$mail->setFrom("me@abdelrazek.dx.am", "abdelrazek.dx.am");
+			$mail->setFrom("me@abdelrazek.dx.am", "abdelrazek");
 		  
 			//Content
 			$mail->isHTML(true);                                  // Set email format to HTML
@@ -108,11 +115,11 @@
 		} catch (Exception $e) {
 			
 		}
-		if (empty($formErrors) && isset($successM) && $successM){
-			echo 1;
+		
+		if (isset($successM) && $successM){
+		 echo 'success';
 		}else{
-			echo json_encode($formErrors);
-		}
-        
+			echo (json_encode($formErrors));
+		}      
     }
 ?>
