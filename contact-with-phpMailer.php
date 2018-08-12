@@ -1,15 +1,15 @@
 <?php 
  error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
  // error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING); // run all reporting errors except E_NOTICE and E_WARNING
- // use PHPMailer\PHPMailer\PHPMailer; 
- // use PHPMailer\PHPMailer\Exception;
+  use PHPMailer\PHPMailer\PHPMailer; 
+  use PHPMailer\PHPMailer\Exception;
   
   // require 'vendor/phpmailer/phpmailer/src/Exception.php';
   // require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
   // require 'vendor/phpmailer/phpmailer/src/SMTP.php';
   //Load composer's autoloader
- // require_once 'vendor/autoload.php';
-  // mail function and phpMailler isn't runnging free server but running in localhost
+ require_once 'vendor/autoload.php';
+  
 // check data coming from method post 
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
 		
@@ -38,12 +38,12 @@
                padding-bottom:15px;
                background-color:#9eae9e;
                width:100%;
-			  '>W e l c o m e, abdelrazek</div>
+			  '>W e l c o m e, abdelrazek.dx.am</div>
 			  <div style = '
 			  width:100%;
                background-color:#fefefe;
               padding:30px 0 30px 0;
-			  '>$msg\n <br>My Phone ::$phone .<br> My Mail : $mail_user .</div>
+			  '>$msg</div>
 			  <div style = '
 			   color:white;
 			   width:100%;
@@ -56,7 +56,7 @@
 	  ";
 	  
 	    $url = "https://www.google.com/recaptcha/api/siteverify"; 
-        $privatekey = "6Lf7mWkUAAAAAMmZlosyH6LLNhQaGacK5fRa2SGR"; 
+        $privatekey = "6LfyLWkUAAAAAK0BJGl-u5Oai9FhDyUST8hvSRRL"; 
         $response = file_get_contents($url."?secret=".$privatekey."&response=".$recapcha_response);
         $data = json_decode($response);
         if (isset($data -> success) AND $data -> success == true){
@@ -86,15 +86,34 @@
 		  $formErrors[] = "Fail Recaptcha.."; 
 		}
 		
+		// Send  mail by phpMailler
+		$mail = new PHPMailer(true);                                 // Passing `true` enables exceptions
+		try {
+		    $mail->SMTPDebug =0;                                   // Enable verbose debug output
+			$mail->isSMTP();                                      // Set mailer to use SMTP
+			$mail->Host = 'smtp.gmail.com;smtp2.gmail.com';               // Specify main and backup SMTP servers
+			$mail->SMTPAuth = true;                             // Enable SMTP authentication
+			$mail->Username = '';           // SMTP username ''
+			$mail->Password = '';                   // SMTP password ''
+			$mail->SMTPSecure = "tls";                       // Enable TLS encryption, `ssl` also accepted
+			$mail->Port = 587;     
+			//Recipients
+			$mail->addAddress('abdelrazek.n4@gmail.com');
+			$mail->addReplyTo($mail_user, $user);
+			$mail->setFrom("abdelrazek.n4@gmail.com", "abdelrazek");
+	  
+			//Content
+			$mail->isHTML(true);                                  // Set email format to HTML
+			$mail->Subject = "My Work";
+			$mail->Body    = $body_msg;
+			$mail->AltBody = "last body";
+            $successM = $mail->send();
+		   
+		} catch (Exception $e) {
+			    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+		}
 		
-		$headers  = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
-        $headers .= "From: ".$mail_user. "\r\n";
-        $headers .= "Reply-To: ". $mail_user. "\r\n";
-        $headers .= "X-Mailer: PHP/" . phpversion();
-        $headers .= "X-Priority: 1" . "\r\n";  
-		if (empty($formErrors)){
-		mail("me@abdelrazek.dx.am", "Website Abdelrazek",$body_msg, $headers);
+		if (isset($successM) && $successM){
 		 echo 1;
 		}else{
 			echo (json_encode($formErrors));

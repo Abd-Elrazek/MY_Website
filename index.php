@@ -278,7 +278,7 @@
 				<div class="col-xs-12">
 					<!--S recapatcha-google-->
 					<div class="recapatcha-google">  
-						<div class="g-recaptcha" data-sitekey="6LfyLWkUAAAAABlFJKkATgdzOwFfUwJ1ffoT4gld" theme="dark"></div>
+						<div class="g-recaptcha" data-sitekey="6Lf7mWkUAAAAABp5OrC6dtq9u6TIKfu3k1sNu6zx" theme="dark"></div>
 					</div>
 					<!--E recapatcha-google-->
 				</div>
