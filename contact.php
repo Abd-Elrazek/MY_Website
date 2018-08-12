@@ -4,11 +4,11 @@
   use PHPMailer\PHPMailer\PHPMailer; 
   use PHPMailer\PHPMailer\Exception;
   
-  require 'vendor/phpmailer/phpmailer/src/Exception.php';
-  require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
-  require 'vendor/phpmailer/phpmailer/src/SMTP.php';
+  // require 'vendor/phpmailer/phpmailer/src/Exception.php';
+  // require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+  // require 'vendor/phpmailer/phpmailer/src/SMTP.php';
   //Load composer's autoloader
- // require_once 'vendor/autoload.php';
+ require_once 'vendor/autoload.php';
   
 // check data coming from method post 
     if ($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -89,35 +89,32 @@
 		// Send  mail by phpMailler
 		$mail = new PHPMailer(true);                                 // Passing `true` enables exceptions
 		try {
-			//Server settings
-			$mail->SMTPDebug =2;                                   // Enable verbose debug output
+		    $mail->SMTPDebug =0;                                   // Enable verbose debug output
 			$mail->isSMTP();                                      // Set mailer to use SMTP
-			$mail->Host = 'mail.abdelrazek.dx.am';               // Specify main and backup SMTP servers
+			$mail->Host = 'smtp.gmail.com;smtp2.gmail.com';               // Specify main and backup SMTP servers
 			$mail->SMTPAuth = true;                             // Enable SMTP authentication
-			$mail->Username = 'me@abdelrazek.dx.am';           // SMTP username
-			$mail->Password = 'newpass123';                   // SMTP password
-			$mail->SMTPSecure = 'tls';                       // Enable TLS encryption, `ssl` also accepted
-			$mail->Port = 587;                              // TCP port to connect to 587 or 465 for ssl
-			
+			$mail->Username = '';           // SMTP username ''
+			$mail->Password = '';                   // SMTP password ''
+			$mail->SMTPSecure = "tls";                       // Enable TLS encryption, `ssl` also accepted
+			$mail->Port = 587;     
 			//Recipients
-			$mail->addAddress('me@abdelrazek.dx.am');
+			$mail->addAddress('abdelrazek.n4@gmail.com');
 			$mail->addReplyTo($mail_user, $user);
-			$mail->setFrom("me@abdelrazek.dx.am", "abdelrazek");
-		  
+			$mail->setFrom("abdelrazek.n4@gmail.com", "abdelrazek");
+	  
 			//Content
 			$mail->isHTML(true);                                  // Set email format to HTML
 			$mail->Subject = "My Work";
 			$mail->Body    = $body_msg;
 			$mail->AltBody = "last body";
             $successM = $mail->send();
-			
 		   
 		} catch (Exception $e) {
-			
+			    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 		}
 		
 		if (isset($successM) && $successM){
-		 echo 'success';
+		 echo 1;
 		}else{
 			echo (json_encode($formErrors));
 		}      
