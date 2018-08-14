@@ -7,6 +7,8 @@
 	<meta content="UI Developer and Web Developer Services, You can send me Message" name="description" />
 	<meta content="UI Developer and Web Developer Services, You can send me Message" name="twitter:description" />
 	<meta content="UI Developer and Web Developer Services, You can send me Message" property="cg:description" />
+	<meta property="og:image" content="http://abdelrazek.dx.am/images/logo.png" />
+
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<!-- for Device mobile -->
