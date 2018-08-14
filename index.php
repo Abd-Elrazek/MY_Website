@@ -4,13 +4,13 @@
 <head>
 	<title> &hearts; A B D E l R A Z E K &hearts; | Developer</title>
 	<meta charset="UTF-8" />
-	<meta content="Contact Us" name="description" />
-	<meta content="Contact Us " name="twitter:description" />
-	<meta content="Contact Us " property="cg:description" />
+	<meta content="UI Developer and Web Developer Services, You can send me Message" name="description" />
+	<meta content="UI Developer and Web Developer Services, You can send me Message" name="twitter:description" />
+	<meta content="UI Developer and Web Developer Services, You can send me Message" property="cg:description" />
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<!-- for Device mobile -->
-	<meta name="Content" content="width=device-width,initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<!-- css -->
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
