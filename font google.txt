@@ -1,0 +1,35 @@
+font-family: 'Indie Flower', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Marck Script', cursive;
+
+=======================================
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Codystar|Coiny|Creepster|Faster+One|Fontdiner+Swanky|Frijole|Gravitas+One|Kirang+Haerang|Knewave|Kranky|Mystery+Quest|Nixie+One|Nosifer|Orbitron|Righteous|Rye|Sancreek|Shojumaru|Trade+Winds" rel="stylesheet">
+
+font-family: 'Nixie One', cursive;
+font-family:     'Abril Fatface', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Kirang Haerang', cursive;
+     font-family:                   'Fontdiner Swanky', cursive;
+font-family: 'Coiny', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Rye', cursive;
+font-family: 'Creepster', cursive;
+font-family:                             'Codystar', cursive;
+     font-family:  'Nosifer', cursive;
+font-family:              'Mystery Quest', cursive;
+     font-family: 'Kranky', cursive;
+                    font-family: 'Sancreek', cursive;
+font-family:      'Trade Winds', cursive;
+
+================
+color of : "Fullstack developer" :     color: #23b198;
+===============
+box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px

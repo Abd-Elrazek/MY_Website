@@ -41,7 +41,7 @@ label:active:after {
 }
 
 .main_switch {
-	display: -webkit-box;
+	display: inline-flex;
 	overflow: hidden;
 }
 
