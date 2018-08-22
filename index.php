@@ -11,6 +11,7 @@
 
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
 	<!-- for Device mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
@@ -28,6 +29,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Marck+Script|Monoton|Sacramento|Source+Code+Pro" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 	<!--E fonts google -->
+	
+	 <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 

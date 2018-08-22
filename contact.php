@@ -94,7 +94,7 @@
         $headers .= "X-Mailer: PHP/" . phpversion();
         $headers .= "X-Priority: 1" . "\r\n";  
 		if (empty($formErrors)){
-		mail("abdelrazek.dx.am", "Website Abdelrazek",$body_msg, $headers);
+		mail("me@abdelrazek.dx.am", "Website Abdelrazek",$body_msg, $headers);
 		 echo 1;
 		}else{
 			echo (json_encode($formErrors));
