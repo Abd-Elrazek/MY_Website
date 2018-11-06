@@ -97,8 +97,8 @@ body {
 .home_image img {
 	margin-left: auto;
 	margin-right: auto;
-	width: 365px;
-	height: 59%;
+	width: 385px;
+    height: 60%;
 	margin-bottom: 18px;
 	align-items: center;
 	justify-content: center;
@@ -106,12 +106,12 @@ body {
 }
 
 .home_info {
-	margin-top: 72px;
+	margin-top: 69px;
 	font-family: HomemadeApple-Regular;
 }
 
 .home_info .list_info {
-    margin-bottom: 72px;
+    margin-bottom: 74px;
 	cursor: default;
 }
 
