@@ -88,9 +88,12 @@ body {
 }
 
 .home_image {
-	margin-top: 13px;
+	margin-top: 37px;
 }
 
+.img-circle {
+    border-radius: 15%;
+}
 .home_image img {
 	margin-left: auto;
 	margin-right: auto;
@@ -108,7 +111,7 @@ body {
 }
 
 .home_info .list_info {
-	margin-bottom: 28px;
+    margin-bottom: 72px;
 	cursor: default;
 }
 

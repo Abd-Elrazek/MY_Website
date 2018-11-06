@@ -101,7 +101,7 @@
 				<p class="text-center i_am"> <span class="iase">I am  Software Engineer </span> <span class="wiiajtb">who is in a journey to become</span> <span class="fsd">a full-stack developer.</span></p>
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_image">
-						<img class="img-circle" src="images/image.png" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
+						<img class="img-circle" src="images/image.jpg" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
 					</div>
 				</div>
 
