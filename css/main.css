@@ -103,6 +103,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	opacity:0.5;
 }
 
 .home_info {
@@ -137,9 +138,10 @@ span.el_info_f {
 }
 
 .i_am {
-	font-size: 22px;
-	font-family: 'Indie Flower', cursive;
-	font-weight: bold;
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+
 }
 
 /* this style for word "Stack developer */
@@ -153,7 +155,7 @@ span.el_info_f {
 	margin-right: auto;
 	margin-bottom: 9px;
 	width: 372px;
-	font-family: 'Orbitron', sans-serif;
+    font-family: 'Righteous',cursive;
     letter-spacing: 5px;
 	font-weight: bold;
 	font-size: 20px;

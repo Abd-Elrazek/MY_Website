@@ -52,6 +52,7 @@ $(document).ready(function () {
 				message = message.replace(",", "<br>");
 				message = message.replace(",", "<br>");
 				message = message.replace(",", "<br>");
+				message = message.replace(",", "<br>");
 				message = message.replace("]", "");
 				message = message.replace("3", "<strong> 3 </strong>")
 				message = message.replace("Number", "<strong> Number </strong>");

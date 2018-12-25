@@ -67,7 +67,10 @@
 		 }
 
 	 // Error in inputs fields
-	   $formErrors = array();
+		 $formErrors = array();
+		 if(!filter_var($mail_user, FILTER_VALIDATE_EMAIL)) {
+			$formErrors[]="Email is not corrrect";
+      }
 		if (strlen("$user") <= 3){
 		  $formErrors[] = "User name not allow char less than 3"; 
 		}

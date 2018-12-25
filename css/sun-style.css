@@ -115,6 +115,8 @@ body::-webkit-scrollbar-thumb {
 
 .i_am {
 	color: black;
+	background-color: beige;
+	text-shadow: 0 0 8px black;
 }
 
 .fsd,
@@ -122,7 +124,7 @@ body::-webkit-scrollbar-thumb {
 .iase {
 	background-color: #41d8f5;
 	color: #ffffff;
-	box-shadow: rgba(79, 97, 97, 0.04) -3px 7px 1px 0px, rgba(64, 62, 63, 0.09) -1px 11px 0px 0px, rgba(0, 0, 0, 0.17) -2px 3px 0px 0px;
+    box-shadow: rgba(79, 97, 97, 0.43) -3px 7px 1px 0px, rgba(64, 62, 63, 0.26) -1px 11px 0px 0px, rgba(0, 0, 0, 0.32) -2px 3px 0px 0px;
 }
 
 .fsd::selection,

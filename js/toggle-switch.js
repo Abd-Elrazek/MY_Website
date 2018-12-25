@@ -13,7 +13,7 @@ var checked = function () {
 	} else {
 		$('.T_').css("background", "rgb(6, 15, 25)");
 		$('head').append('<link class = "night_mode" rel="stylesheet" href="css/night-style.css" />');
-		$('head').append('<style class ="toggle_s" type="text/css"> label:after{background:#222}; </style>');
+		$('head').append('<style class ="toggle_s" type="text/css"> label:after{background: #fff;}; </style>');
 		$(".sun_mode").remove();
 		$(".toggle").remove();
 		$(".sun_icon").css("color", "rgb(84, 88, 77)")
