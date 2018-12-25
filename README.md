@@ -1,19 +1,24 @@
-  ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/Home.png)
+- **Home Page
+ ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/Home.png)
   
-<hr style="color:black">
+<hr>
 
+- **Skills Page
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/skills.png)
   
 <hr>
 
+- **Services Page
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/services.png)
   
 <hr>
 
+- **Contact Me Page
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/contact%20me.png)
   
 <hr>
 
+- **About Page
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/About%20me.png)
   
 <hr>
