@@ -1,6 +1,6 @@
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/Home.png)
   
-<hr>
+<hr style="color:black">
 
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/skills.png)
   
