@@ -8,7 +8,7 @@
              --> Certificate <a href ="https://github.com/Abd-Elrazek/My_Web/blob/master/Full%20Stack%20Developer%20Track%20Certificate%20.pdf"> Show </a>
                    </p>
 				   
-				   <p align="center">
+<p align="center">
     <img src="https://github.com/trimstray/the-book-of-secret-knowledge/blob/master/doc/img/the-book-of-secret-knowledge-preview.png"
         alt="Master">
 </p>
