@@ -3,7 +3,7 @@
   
 <hr>
 
-- **Skills Page
+-<h3> Skills Page</h3>
   ![image](https://github.com/Abd-Elrazek/My_Web/blob/master/WireFrame/skills.png)
   
 <hr>
