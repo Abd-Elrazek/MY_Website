@@ -4,10 +4,16 @@
 <head>
 	<title> &hearts; A B D E l R A Z E K &hearts; | Developer</title>
 	<meta charset="UTF-8" />
-	<meta content="UI Developer and Web Developer Services, You can send me Message" name="description" />
+	<meta content="UI Developer and Web Developer Services" name="description" />
 	<meta content="UI Developer and Web Developer Services, You can send me Message" name="twitter:description" />
 	<meta content="UI Developer and Web Developer Services, You can send me Message" property="cg:description" />
-	<meta property="og:image" content="images/logo.png" />
+     <!-- trial and experimental -->
+  <meta property="og:title" content="UI Developer and Web Developer Services" />
+  <meta property="og:description" content="I'm an professional Website Engineer or as most people call it... a Web Designer, Web Developer. eCommerce Websites, Content Management Systems, Graphic Design." />
+  <meta property="og:site_name" content="Web Developer" />
+  <meta property="og:url" content="http://abdelrazek.dx.am" />
+  <meta property="og:image" content="./images/image.jpg" />
+  <meta property="og:type" content="website" />
 
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -101,7 +107,7 @@
 				<p class="text-center i_am"> <span class="iase">I am  Software Engineer </span> <span class="wiiajtb">who is in a journey to become</span> <span class="fsd">a full-stack developer.</span></p>
 				<div class="col-sm-6  col-xs-12">
 					<div class="home_image">
-						<img class="img-circle" src="images/image.jpg" title="Developer : ^__^ abdelrazek ^__^" alt="image not found, internet erorr">
+						<img class="img-circle" src="./images/image.jpg" title="Developer : ^__^ abdelrazek ^__^"/>
 					</div>
 				</div>
 
