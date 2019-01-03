@@ -8,12 +8,13 @@
 	<meta content="UI Developer and Web Developer Services, You can send me Message" name="twitter:description" />
 	<meta content="UI Developer and Web Developer Services, You can send me Message" property="cg:description" />
      <!-- trial and experimental -->
-  <meta property="og:title" content="UI Developer and Web Developer Services" />
-  <meta property="og:description" content="I'm an professional Website Engineer or as most people call it... a Web Designer, Web Developer. eCommerce Websites, Content Management Systems, Graphic Design." />
-  <meta property="og:site_name" content="Web Developer" />
-  <meta property="og:url" content="http://abdelrazek.dx.am" />
-  <meta property="og:image" content="./images/image.jpg" />
-  <meta property="og:type" content="website" />
+	<meta property="og:title" content="UI Developer and Web Developer Services" />
+	<meta property="og:description" content="I'm an professional Website Engineer or as most people call it... a Web Designer, Web Developer. eCommerce Websites, Content Management Systems, Graphic Design." />
+	<meta property="og:site_name" content="Web Developer" />
+	<meta property="og:url" content="http://abdelrazek.dx.am" />
+	<meta property="og:image" content="http://abdelrazek.dx.am/images/image.jpg" />
+	<meta name="twitter:image" content="http://abdelrazek.dx.am/images/image.jpg"/>
+	<meta property="og:type" content="website" />
 
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
