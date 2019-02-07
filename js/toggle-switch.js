@@ -1,5 +1,5 @@
 /* global  , document, $ */
-var n = document.getElementById("switch");
+	var n = document.getElementById("switch");
 var checked = function () {
 	"use strict"
 	if (n.checked) {
@@ -14,7 +14,6 @@ var checked = function () {
 		$('.T_').css("background", "rgb(6, 15, 25)");
 		$('head').append('<link class = "night_mode" rel="stylesheet" href="css/night-style.css" />');
 		$('head').append('<style class ="toggle_s" type="text/css"> label:after{background: #fff;}; </style>');
-		$('.mode_theme').attr('content','#1a2531');
 		$(".sun_mode").remove();
 		$(".toggle").remove();
 		$(".sun_icon").css("color", "rgb(84, 88, 77)")
@@ -22,7 +21,6 @@ var checked = function () {
 	}
 
 };
-
 checked();
 $("input[type=checkbox]").on("click", checked);
-//-----------------------
+
