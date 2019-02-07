@@ -21,6 +21,14 @@
 
 	<!-- for Device mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--for Android devices in chrome, firefox and opera theme color of adddress bar-->
+    <meta class = "mode_theme" name = "theme-color" content = "#41d8f5">
+		<!-- for windows phone theme color of navbar or address bar -->
+    <meta class = "sun_mode" name = "msapplication-navbutton-color" content = "#41d8f5">
+		<!-- for ios devices phone -->
+    <meta class = "sun_mode" name = "apple-mobile-web-app-capable" content = "yes">
+    <meta class = "sun_mode" name = "apple-mobile-web-app-status-bar-style" content = "black-translucent">
+	
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<!-- css -->
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
