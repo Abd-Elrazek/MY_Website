@@ -1,0 +1,15 @@
+@media (min-width:0px) and (max-width:767px) {
+    .subscribe .form-control {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 8px;
+        width: 270px;
+    }
+
+}
+
+@media(min-width:0px) and (max-width:340px) {
+    .subscribe .form-control {
+        width: 230px;
+    }
+}

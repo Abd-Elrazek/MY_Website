@@ -43,7 +43,7 @@
 			  width:100%;
                background-color:#fefefe;
               padding:30px 0 30px 0;
-			  '>$msg\n <br>My Phone ::$phone .<br> My Mail : $mail_user .</div>
+			  '>Name : $user\n <br> $msg\n <br>My Phone ::$phone .<br> My Mail : $mail_user .</div>
 			  <div style = '
 			   color:white;
 			   width:100%;
@@ -91,7 +91,7 @@
 		
 		
 		$headers  = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+        $headers .= "Content-type: text/html; charset=utf-8" . "\r\n";
         $headers .= "From: ".$mail_user. "\r\n";
         $headers .= "Reply-To: ". $mail_user. "\r\n";
         $headers .= "X-Mailer: PHP/" . phpversion();

@@ -1,0 +1,75 @@
+/*this is theme default for color website */
+
+.footer-list h3 {
+    color: #c6dc10;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #c6dc10;
+    color: fffcfe;
+}
+
+.about h1 span {
+    color: #c6dc10;
+    font-weight: bold;
+}
+
+.glyphicon {
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #c6dc10;
+
+}
+
+h1.our,
+.features h2,
+h3.visible-xs {
+    color: #c6dc10;
+}
+
+.testmonials .carousel-indicators li img {
+    max-width: 100%;
+    width: 80px;
+    height: 80px;
+    border: 2px #c6dc10 solid;
+    border-radius: 25% 50%;
+    overflow: hidden;
+
+}
+
+.testmonials .carousel-indicators li.active img {
+
+    border: 3px #c6dc10 solid;
+    height: 80px;
+    width: 80px;
+}
+
+.option-box .color-option {
+    float: right;
+    background-color: #c6dc10;
+    color: #fff;
+    padding: 1px;
+    padding-left: 8px;
+    width: 154px;
+    display: none;
+}
+
+
+.option-box .star {
+    border: solid 1px white;
+    padding: 5px;
+    background-color: #c6dc10;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: #c6dc10;
+}
+.carousel-indicators .active {
+    background-color: #c6dc10;
+}

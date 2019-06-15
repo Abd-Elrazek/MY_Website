@@ -1,0 +1,56 @@
+/*this is theme default for color website */
+
+.footer-list h3 {
+    color: #6b1763;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #6b1763;
+    color: navajowhite;
+}
+
+.about h1 span {
+    color: #6b1763;
+    font-weight: bold;
+}
+
+.glyphicon {
+    padding-bottom: 6px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #6b1763;
+
+}
+
+h1.our,
+.features h2,
+h3.visible-xs {
+    color: #6b1763;
+}
+
+.testmonials .carousel-indicators li img {
+    max-width: 100%;
+    width: 80px;
+    height: 80px;
+    border: 2px #6b1763 solid;
+    border-radius: 25% 50%;
+    overflow: hidden;
+
+}
+
+.testmonials .carousel-indicators li.active img {
+
+    border: 3px #6b1763 solid;
+    height: 80px;
+    width: 80px;
+}
+
+.scroll-to-top:hover {
+    background-color: #6b1763;
+}
+.carousel-indicators .active {
+    background-color: #6b1763;
+}

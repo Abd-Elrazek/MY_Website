@@ -19,17 +19,21 @@
 	<!-- For Internet Explorer -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<!-- for Device mobile -->
+	<!-- for Device mobile view-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--for Android devices in chrome, firefox and opera theme color of adddress bar-->
-    <meta class = "mode_theme" name = "theme-color" content = "#41d8f5">
-		<!-- for windows phone theme color of navbar or address bar -->
-    <meta class = "sun_mode" name = "msapplication-navbutton-color" content = "#41d8f5">
-		<!-- for ios devices phone -->
-    <meta class = "sun_mode" name = "apple-mobile-web-app-capable" content = "yes">
-    <meta class = "sun_mode" name = "apple-mobile-web-app-status-bar-style" content = "black-translucent">
+    <!--for Android devices in chrome, firefox and opera theme color of Toolbar color-->
+    <meta class = "mode_theme" name = "theme-color" content = "#398A81">
+	<!-- for windows phone theme color of navbar or address bar -->
+    <meta name="msapplication-navbutton-color" content="#398A81">
+	<!--  
+     Note: according to Apple's dev notes: "This meta tag has no effect unless you first specify full-screen mode as described in apple-apple-mobile-web-app-capable.
+	-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- iOS Safari The iOS apple-mobile-web-app-status-bar-style attribute only supports black, black-translucent -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+	<link rel="icon" sizes="192x192" href="favicon.png">
 	<!-- css -->
 	<link rel="stylesheet" href="css/bootstrap.css" as="style" />
 	<link rel="stylesheet" href="css/fontawesome-all.css" type="text/css" />
